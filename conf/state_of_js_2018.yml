@@ -1,0 +1,954 @@
+survey: js
+year: 2018
+source: typeform
+typeformId: J9gRJf
+sections:
+    javascript_flavors:
+        title: 'JavaScript Flavors'
+        freeform: 'Other JavaScript Flavors options'
+        tools:
+            - reason
+            - clojurescript
+            - elm
+            - flow
+            - typescript
+            - es6
+    front_end_frameworks:
+        title: Front-End
+        freeform: 'Other Front-End options'
+        tools:
+            - react
+            - angular
+            - ember
+            - polymer
+            - vuejs
+            - preact
+    data_layer:
+        title: 'Data Layer'
+        freeform: 'Other Data Layer options'
+        tools:
+            - redux
+            - graphql
+            - relay
+            - apollo
+            - mobx
+    backend_frameworks:
+        title: Back-end
+        freeform: 'Other Back-end options'
+        tools:
+            - meteor
+            - express
+            - nextjs
+            - koa
+            - sails
+            - feathers
+    testing:
+        title: Testing
+        freeform: 'Other Testing options'
+        tools:
+            - storybook
+            - mocha
+            - jasmine
+            - jest
+            - enzyme
+            - ava
+            - karma
+    mobile_desktop:
+        title: 'Mobile & Desktop'
+        freeform: 'Other Mobile & Desktop options'
+        tools:
+            - electron
+            - reactnative
+            - cordova
+            - nativescript
+            - ionic
+            - nativeapps
+experience:
+    '👍 Used it > Would use again': would_use
+    '👎 Used it > Would avoid': would_not_use
+    '✅ Heard of it > Would like to learn': interested
+    '🚫 Heard of it > Not interested': not_interested
+    '🤷 Never heard of it/Not sure what it is': never_heard
+tools:
+    - reason
+    - clojurescript
+    - elm
+    - flow
+    - typescript
+    - es6
+    - react
+    - angular
+    - ember
+    - polymer
+    - vuejs
+    - preact
+    - redux
+    - graphql
+    - relay
+    - apollo
+    - mobx
+    - meteor
+    - express
+    - nextjs
+    - koa
+    - sails
+    - feathers
+    - storybook
+    - mocha
+    - jasmine
+    - jest
+    - enzyme
+    - ava
+    - karma
+    - electron
+    - reactnative
+    - cordova
+    - nativescript
+    - ionic
+    - nativeapps
+otherTools:
+    - other_languages
+    - browser_apis
+    - build_tools
+    - utility_libraries
+    - text_editors
+userInfo:
+    - years_of_experience
+    - company_size
+    - yearly_salary
+    - email
+    - source
+    - gender
+    - country
+    - null
+fields:
+    SLDPN08dU0MI:
+        slug: java_script_flavors
+        typeform_type: group
+    DYKQQkIKz2SD:
+        slug: java_script_flavors_reason
+        typeform_type: multiple_choice
+        type: tool
+        tool: reason
+        section: javascript_flavors
+    OsQMv9owmiQl:
+        slug: java_script_flavors_what_do_you_like_👍_about_reason
+        typeform_type: multiple_choice
+        type: like
+        tool: reason
+        section: javascript_flavors
+    Vo3ZJ2wi5VaZ:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_reason
+        typeform_type: multiple_choice
+        type: dislike
+        tool: reason
+        section: javascript_flavors
+    Go4TWhDKQs6W:
+        slug: java_script_flavors_clojure_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: clojurescript
+        section: javascript_flavors
+    KiND5OTgMdX2:
+        slug: java_script_flavors_what_do_you_like_👍_about_clojure_script
+        typeform_type: multiple_choice
+        type: like
+        tool: clojurescript
+        section: javascript_flavors
+    UUx10HS6W4uM:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_clojure_script
+        typeform_type: multiple_choice
+        type: dislike
+        tool: clojurescript
+        section: javascript_flavors
+    IRf3Rgkmmchd:
+        slug: java_script_flavors_elm
+        typeform_type: multiple_choice
+        type: tool
+        tool: elm
+        section: javascript_flavors
+    H6hMa14JE4ud:
+        slug: java_script_flavors_what_do_you_like_👍_about_elm
+        typeform_type: multiple_choice
+        type: like
+        tool: elm
+        section: javascript_flavors
+    OaCJvLAwWo8m:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_elm
+        typeform_type: multiple_choice
+        type: dislike
+        tool: elm
+        section: javascript_flavors
+    BYNO7O0lVQsd:
+        slug: java_script_flavors_flow
+        typeform_type: multiple_choice
+        type: tool
+        tool: flow
+        section: javascript_flavors
+    OT6Ox0EympHP:
+        slug: java_script_flavors_what_do_you_like_👍_about_flow
+        typeform_type: multiple_choice
+        type: like
+        tool: flow
+        section: javascript_flavors
+    heiCBgiDewej:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_flow
+        typeform_type: multiple_choice
+        type: dislike
+        tool: flow
+        section: javascript_flavors
+    MRsLOXKyPHug:
+        slug: java_script_flavors_type_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: typescript
+        section: javascript_flavors
+    GppPkIISWLsN:
+        slug: java_script_flavors_what_do_you_like_👍_about_type_script
+        typeform_type: multiple_choice
+        type: like
+        tool: typescript
+        section: javascript_flavors
+    VvLW6inP8JcY:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_type_script
+        typeform_type: multiple_choice
+        type: dislike
+        tool: typescript
+        section: javascript_flavors
+    boE4mHIiSwE6:
+        slug: java_script_flavors_es_6
+        typeform_type: multiple_choice
+        type: tool
+        tool: es6
+        section: javascript_flavors
+    gLTsgxMravMX:
+        slug: java_script_flavors_what_do_you_like_👍_about_es_6
+        typeform_type: multiple_choice
+        type: like
+        tool: es6
+        section: javascript_flavors
+    NHkSU4f5EhFJ:
+        slug: java_script_flavors_what_do_you_dislike_👎_about_es_6
+        typeform_type: multiple_choice
+        type: dislike
+        tool: es6
+        section: javascript_flavors
+    Bu13nZgFYn41:
+        slug: java_script_flavors_other_java_script_flavors_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: javascript_flavors
+    tG6GyIDRvICd:
+        slug: java_script_flavors_on_a_scale_of_one_to_five_how_happy_are_you_with_available_java_script_flavors_options
+        typeform_type: rating
+        type: overall_happiness
+        section: javascript_flavors
+    lcAKYS5HuJcY:
+        slug: front_end
+        typeform_type: group
+    JIbJUEu8NQZe:
+        slug: front_end_react
+        typeform_type: multiple_choice
+        type: tool
+        tool: react
+        section: front_end_frameworks
+    CBLU7bYbshZm:
+        slug: front_end_what_do_you_like_👍_about_react
+        typeform_type: multiple_choice
+        type: like
+        tool: react
+        section: front_end_frameworks
+    E7qZIpDmFInr:
+        slug: front_end_what_do_you_dislike_👎_about_react
+        typeform_type: multiple_choice
+        type: dislike
+        tool: react
+        section: front_end_frameworks
+    RujrkmFbZRK1:
+        slug: front_end_angular
+        typeform_type: multiple_choice
+        type: tool
+        tool: angular
+        section: front_end_frameworks
+    MPgeP28502HF:
+        slug: front_end_what_do_you_like_👍_about_angular
+        typeform_type: multiple_choice
+        type: like
+        tool: angular
+        section: front_end_frameworks
+    ah7WxKMgMHbU:
+        slug: front_end_what_do_you_dislike_👎_about_angular
+        typeform_type: multiple_choice
+        type: dislike
+        tool: angular
+        section: front_end_frameworks
+    lkFFbxwu58KI:
+        slug: front_end_ember
+        typeform_type: multiple_choice
+        type: tool
+        tool: ember
+        section: front_end_frameworks
+    vyJ3ujzxWtVM:
+        slug: front_end_what_do_you_like_👍_about_ember
+        typeform_type: multiple_choice
+        type: like
+        tool: ember
+        section: front_end_frameworks
+    tGX8ouGgDGA4:
+        slug: front_end_what_do_you_dislike_👎_about_ember
+        typeform_type: multiple_choice
+        type: dislike
+        tool: ember
+        section: front_end_frameworks
+    aFjGNL5r5bqj:
+        slug: front_end_polymer
+        typeform_type: multiple_choice
+        type: tool
+        tool: polymer
+        section: front_end_frameworks
+    QfHFx147KouR:
+        slug: front_end_what_do_you_like_👍_about_polymer
+        typeform_type: multiple_choice
+        type: like
+        tool: polymer
+        section: front_end_frameworks
+    gOpOE8Si8g4J:
+        slug: front_end_what_do_you_dislike_👎_about_polymer
+        typeform_type: multiple_choice
+        type: dislike
+        tool: polymer
+        section: front_end_frameworks
+    iYsV5f1b98xc:
+        slug: front_end_vue_js
+        typeform_type: multiple_choice
+        type: tool
+        tool: vuejs
+        section: front_end_frameworks
+    h0QTVJ89u2ma:
+        slug: front_end_what_do_you_like_👍_about_vue_js
+        typeform_type: multiple_choice
+        type: like
+        tool: vuejs
+        section: front_end_frameworks
+    xBVFgc8IPYpd:
+        slug: front_end_what_do_you_dislike_👎_about_vue_js
+        typeform_type: multiple_choice
+        type: dislike
+        tool: vuejs
+        section: front_end_frameworks
+    JSN28A0EjEPL:
+        slug: front_end_preact
+        typeform_type: multiple_choice
+        type: tool
+        tool: preact
+        section: front_end_frameworks
+    kXzA5Jsmmcob:
+        slug: front_end_what_do_you_like_👍_about_preact
+        typeform_type: multiple_choice
+        type: like
+        tool: preact
+        section: front_end_frameworks
+    Iy9kZPUdv2gm:
+        slug: front_end_what_do_you_dislike_👎_about_preact
+        typeform_type: multiple_choice
+        type: dislike
+        tool: preact
+        section: front_end_frameworks
+    doF88Cqx1g9P:
+        slug: front_end_other_front_end_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: front_end_frameworks
+    uygOQCKWfrgu:
+        slug: front_end_on_a_scale_of_one_to_five_how_happy_are_you_with_available_front_end_options
+        typeform_type: rating
+        type: overall_happiness
+        section: front_end_frameworks
+    xLsGgpy1firz:
+        slug: data_layer
+        typeform_type: group
+    j16c8ycbTSJT:
+        slug: data_layer_redux
+        typeform_type: multiple_choice
+        type: tool
+        tool: redux
+        section: data_layer
+    yqk1SW729sx6:
+        slug: data_layer_what_do_you_like_👍_about_redux
+        typeform_type: multiple_choice
+        type: like
+        tool: redux
+        section: data_layer
+    uRZWEV4uw4cN:
+        slug: data_layer_what_do_you_dislike_👎_about_redux
+        typeform_type: multiple_choice
+        type: dislike
+        tool: redux
+        section: data_layer
+    Eg8JuKFN0tgf:
+        slug: data_layer_graph_ql
+        typeform_type: multiple_choice
+        type: tool
+        tool: graphql
+        section: data_layer
+    sjt458oRFpY5:
+        slug: data_layer_what_do_you_like_👍_about_graph_ql
+        typeform_type: multiple_choice
+        type: like
+        tool: graphql
+        section: data_layer
+    sqlz0CJpqvis:
+        slug: data_layer_what_do_you_dislike_👎_about_graph_ql
+        typeform_type: multiple_choice
+        type: dislike
+        tool: graphql
+        section: data_layer
+    Tg4qp4kjiqYR:
+        slug: data_layer_relay
+        typeform_type: multiple_choice
+        type: tool
+        tool: relay
+        section: data_layer
+    f5ApOYkfOKl1:
+        slug: data_layer_what_do_you_like_👍_about_relay
+        typeform_type: multiple_choice
+        type: like
+        tool: relay
+        section: data_layer
+    Z82bnprflobv:
+        slug: data_layer_what_do_you_dislike_👎_about_relay
+        typeform_type: multiple_choice
+        type: dislike
+        tool: relay
+        section: data_layer
+    jl5A0Ct9JNrg:
+        slug: data_layer_apollo
+        typeform_type: multiple_choice
+        type: tool
+        tool: apollo
+        section: data_layer
+    svUGX25P9Dnw:
+        slug: data_layer_what_do_you_like_👍_about_apollo
+        typeform_type: multiple_choice
+        type: like
+        tool: apollo
+        section: data_layer
+    RirM8wEP2SoO:
+        slug: data_layer_what_do_you_dislike_👎_about_apollo
+        typeform_type: multiple_choice
+        type: dislike
+        tool: apollo
+        section: data_layer
+    sNPGhpQhTGTl:
+        slug: data_layer_mobx
+        typeform_type: multiple_choice
+        type: tool
+        tool: mobx
+        section: data_layer
+    icEJZKC398Dd:
+        slug: data_layer_what_do_you_like_👍_about_mobx
+        typeform_type: multiple_choice
+        type: like
+        tool: mobx
+        section: data_layer
+    C6D5Flr3Og59:
+        slug: data_layer_what_do_you_dislike_👎_about_mobx
+        typeform_type: multiple_choice
+        type: dislike
+        tool: mobx
+        section: data_layer
+    oWcIqu15IDjP:
+        slug: data_layer_other_data_layer_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: data_layer
+    u3diwAiis2Gk:
+        slug: data_layer_on_a_scale_of_one_to_five_how_happy_are_you_with_available_data_layer_options
+        typeform_type: rating
+        type: overall_happiness
+        section: data_layer
+    JLRqqbOkidIS:
+        slug: back_end
+        typeform_type: group
+    GXPJPWbcxu4c:
+        slug: back_end_meteor
+        typeform_type: multiple_choice
+        type: tool
+        tool: meteor
+        section: backend_frameworks
+    pNPwRkaJuC3U:
+        slug: back_end_what_do_you_like_👍_about_meteor
+        typeform_type: multiple_choice
+        type: like
+        tool: meteor
+        section: backend_frameworks
+    ynaZ5V6WXf82:
+        slug: back_end_what_do_you_dislike_👎_about_meteor
+        typeform_type: multiple_choice
+        type: dislike
+        tool: meteor
+        section: backend_frameworks
+    tDCs8k92wSGi:
+        slug: back_end_express
+        typeform_type: multiple_choice
+        type: tool
+        tool: express
+        section: backend_frameworks
+    R4bxNsbf6OK8:
+        slug: back_end_what_do_you_like_👍_about_express
+        typeform_type: multiple_choice
+        type: like
+        tool: express
+        section: backend_frameworks
+    qCQKKok2gaxK:
+        slug: back_end_what_do_you_dislike_👎_about_express
+        typeform_type: multiple_choice
+        type: dislike
+        tool: express
+        section: backend_frameworks
+    RlQBNe9UEq09:
+        slug: back_end_next_js
+        typeform_type: multiple_choice
+        type: tool
+        tool: nextjs
+        section: backend_frameworks
+    vRDzaO1MCtj2:
+        slug: back_end_what_do_you_like_👍_about_next_js
+        typeform_type: multiple_choice
+        type: like
+        tool: nextjs
+        section: backend_frameworks
+    gQc8tPx3i3k5:
+        slug: back_end_what_do_you_dislike_👎_about_next_js
+        typeform_type: multiple_choice
+        type: dislike
+        tool: nextjs
+        section: backend_frameworks
+    kYCrccJB6SYM:
+        slug: back_end_koa
+        typeform_type: multiple_choice
+        type: tool
+        tool: koa
+        section: backend_frameworks
+    tscByKU4LCEV:
+        slug: back_end_what_do_you_like_👍_about_koa
+        typeform_type: multiple_choice
+        type: like
+        tool: koa
+        section: backend_frameworks
+    RS56h5MjYkQl:
+        slug: back_end_what_do_you_dislike_👎_about_koa
+        typeform_type: multiple_choice
+        type: dislike
+        tool: koa
+        section: backend_frameworks
+    eaLNSFYDGa88:
+        slug: back_end_sails
+        typeform_type: multiple_choice
+        type: tool
+        tool: sails
+        section: backend_frameworks
+    kcdvSKvWBcdO:
+        slug: back_end_what_do_you_like_👍_about_sails
+        typeform_type: multiple_choice
+        type: like
+        tool: sails
+        section: backend_frameworks
+    nY8XfTrrL1ap:
+        slug: back_end_what_do_you_dislike_👎_about_sails
+        typeform_type: multiple_choice
+        type: dislike
+        tool: sails
+        section: backend_frameworks
+    LxIQ4atOZ2ZZ:
+        slug: back_end_feathers
+        typeform_type: multiple_choice
+        type: tool
+        tool: feathers
+        section: backend_frameworks
+    fvlnV69Zz6v7:
+        slug: back_end_what_do_you_like_👍_about_feathers
+        typeform_type: multiple_choice
+        type: like
+        tool: feathers
+        section: backend_frameworks
+    vHm6N3VsZ8UK:
+        slug: back_end_what_do_you_dislike_👎_about_feathers
+        typeform_type: multiple_choice
+        type: dislike
+        tool: feathers
+        section: backend_frameworks
+    jgadf6KAhURx:
+        slug: back_end_other_back_end_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: backend_frameworks
+    EANeo5VwRonl:
+        slug: back_end_on_a_scale_of_one_to_five_how_happy_are_you_with_available_back_end_options
+        typeform_type: rating
+        type: overall_happiness
+        section: backend_frameworks
+    YdqBBcIjY3FF:
+        slug: testing
+        typeform_type: group
+    t2iShXV2Z8FY:
+        slug: testing_storybook
+        typeform_type: multiple_choice
+        type: tool
+        tool: storybook
+        section: testing
+    gQlzy13MwUfK:
+        slug: testing_what_do_you_like_👍_about_storybook
+        typeform_type: multiple_choice
+        type: like
+        tool: storybook
+        section: testing
+    fKZn1zcUXqQn:
+        slug: testing_what_do_you_dislike_👎_about_storybook
+        typeform_type: multiple_choice
+        type: dislike
+        tool: storybook
+        section: testing
+    BjUoI6K8yJSh:
+        slug: testing_mocha
+        typeform_type: multiple_choice
+        type: tool
+        tool: mocha
+        section: testing
+    y17jeEGYetZb:
+        slug: testing_what_do_you_like_👍_about_mocha
+        typeform_type: multiple_choice
+        type: like
+        tool: mocha
+        section: testing
+    ktK7BfNzALLd:
+        slug: testing_what_do_you_dislike_👎_about_mocha
+        typeform_type: multiple_choice
+        type: dislike
+        tool: mocha
+        section: testing
+    X6RaCCEH7Iqd:
+        slug: testing_jasmine
+        typeform_type: multiple_choice
+        type: tool
+        tool: jasmine
+        section: testing
+    Q2RU40Te3ORb:
+        slug: testing_what_do_you_like_👍_about_jasmine
+        typeform_type: multiple_choice
+        type: like
+        tool: jasmine
+        section: testing
+    M4YZms00yRa1:
+        slug: testing_what_do_you_dislike_👎_about_jasmine
+        typeform_type: multiple_choice
+        type: dislike
+        tool: jasmine
+        section: testing
+    Fjh9KXrdJnT3:
+        slug: testing_jest
+        typeform_type: multiple_choice
+        type: tool
+        tool: jest
+        section: testing
+    XJprtkHRUuha:
+        slug: testing_what_do_you_like_👍_about_jest
+        typeform_type: multiple_choice
+        type: like
+        tool: jest
+        section: testing
+    bGMzDIlFnw1W:
+        slug: testing_what_do_you_dislike_👎_about_jest
+        typeform_type: multiple_choice
+        type: dislike
+        tool: jest
+        section: testing
+    oHGt9YEaHcSj:
+        slug: testing_enzyme
+        typeform_type: multiple_choice
+        type: tool
+        tool: enzyme
+        section: testing
+    zHIEYm5hsi1I:
+        slug: testing_what_do_you_like_👍_about_enzyme
+        typeform_type: multiple_choice
+        type: like
+        tool: enzyme
+        section: testing
+    QJ2K97v9XoZs:
+        slug: testing_what_do_you_dislike_👎_about_enzyme
+        typeform_type: multiple_choice
+        type: dislike
+        tool: enzyme
+        section: testing
+    E3YBHRi7L6bm:
+        slug: testing_ava
+        typeform_type: multiple_choice
+        type: tool
+        tool: ava
+        section: testing
+    v75vgKFarPSO:
+        slug: testing_what_do_you_like_👍_about_ava
+        typeform_type: multiple_choice
+        type: like
+        tool: ava
+        section: testing
+    DBysXebe4W7o:
+        slug: testing_what_do_you_dislike_👎_about_ava
+        typeform_type: multiple_choice
+        type: dislike
+        tool: ava
+        section: testing
+    HZmB069GLqpm:
+        slug: testing_karma
+        typeform_type: multiple_choice
+        type: tool
+        tool: karma
+        section: testing
+    EjbQh5V6VKU4:
+        slug: testing_what_do_you_like_👍_about_karma
+        typeform_type: multiple_choice
+        type: like
+        tool: karma
+        section: testing
+    Jo65euPxuJcf:
+        slug: testing_what_do_you_dislike_👎_about_karma
+        typeform_type: multiple_choice
+        type: dislike
+        tool: karma
+        section: testing
+    Uzu7ZfHVHWbI:
+        slug: testing_other_testing_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: testing
+    L9gSqaNL0GN0:
+        slug: testing_on_a_scale_of_one_to_five_how_happy_are_you_with_available_testing_options
+        typeform_type: rating
+        type: overall_happiness
+        section: testing
+    DeBNhR2ojbHd:
+        slug: mobile_desktop
+        typeform_type: group
+    t1qvo5E1RoIv:
+        slug: mobile_desktop_electron
+        typeform_type: multiple_choice
+        type: tool
+        tool: electron
+        section: mobile_desktop
+    csfuw8h6shob:
+        slug: mobile_desktop_what_do_you_like_👍_about_electron
+        typeform_type: multiple_choice
+        type: like
+        tool: electron
+        section: mobile_desktop
+    WylAWybPluYl:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_electron
+        typeform_type: multiple_choice
+        type: dislike
+        tool: electron
+        section: mobile_desktop
+    JACHbSIEJ6kA:
+        slug: mobile_desktop_react_native
+        typeform_type: multiple_choice
+        type: tool
+        tool: reactnative
+        section: mobile_desktop
+    faf4dIz19DyE:
+        slug: mobile_desktop_what_do_you_like_👍_about_react_native
+        typeform_type: multiple_choice
+        type: like
+        tool: reactnative
+        section: mobile_desktop
+    rIIYh8BnkFnP:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_react_native
+        typeform_type: multiple_choice
+        type: dislike
+        tool: reactnative
+        section: mobile_desktop
+    VqB583tSYSxU:
+        slug: mobile_desktop_phone_gap_cordova
+        typeform_type: multiple_choice
+        type: tool
+        tool: cordova
+        section: mobile_desktop
+    kV90YEYlVToI:
+        slug: mobile_desktop_what_do_you_like_👍_about_phone_gap_cordova
+        typeform_type: multiple_choice
+        type: like
+        tool: cordova
+        section: mobile_desktop
+    Vievhr88Kot0:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_phone_gap_cordova
+        typeform_type: multiple_choice
+        type: dislike
+        tool: cordova
+        section: mobile_desktop
+    Vst6yDXqWzHQ:
+        slug: mobile_desktop_native_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: nativescript
+        section: mobile_desktop
+    gNO84FdIrfgk:
+        slug: mobile_desktop_what_do_you_like_👍_about_native_script
+        typeform_type: multiple_choice
+        type: like
+        tool: nativescript
+        section: mobile_desktop
+    B5p0ecUpP2z4:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_native_script
+        typeform_type: multiple_choice
+        type: dislike
+        tool: nativescript
+        section: mobile_desktop
+    xkNca54zNIBt:
+        slug: mobile_desktop_ionic
+        typeform_type: multiple_choice
+        type: tool
+        tool: ionic
+        section: mobile_desktop
+    B7CJQxzJmexX:
+        slug: mobile_desktop_what_do_you_like_👍_about_ionic
+        typeform_type: multiple_choice
+        type: like
+        tool: ionic
+        section: mobile_desktop
+    WQmFh3PyzVt3:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_ionic
+        typeform_type: multiple_choice
+        type: dislike
+        tool: ionic
+        section: mobile_desktop
+    Sbh4HhPvShLO:
+        slug: mobile_desktop_native_apps
+        typeform_type: multiple_choice
+        type: tool
+        tool: nativeapps
+        section: mobile_desktop
+    mA1vAeZ1UFjv:
+        slug: mobile_desktop_what_do_you_like_👍_about_native_apps
+        typeform_type: multiple_choice
+        type: like
+        tool: nativeapps
+        section: mobile_desktop
+    IK9v8fGbukoT:
+        slug: mobile_desktop_what_do_you_dislike_👎_about_native_apps
+        typeform_type: multiple_choice
+        type: dislike
+        tool: nativeapps
+        section: mobile_desktop
+    cplwO8cN69yT:
+        slug: mobile_desktop_other_mobile_desktop_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: mobile_desktop
+    yFLjXCIeJouk:
+        slug: mobile_desktop_on_a_scale_of_one_to_five_how_happy_are_you_with_available_mobile_desktop_options
+        typeform_type: rating
+        type: overall_happiness
+        section: mobile_desktop
+    mZtURNMco8dF:
+        slug: other_tools
+        typeform_type: group
+    kHsnuaxtvkB7:
+        slug: other_tools_other_languages
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: other_languages
+    ScaXLCCuVDYU:
+        slug: other_tools_browser_ap_is
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: browser_apis
+    xPpGhdmzMswP:
+        slug: other_tools_build_tools
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: build_tools
+    X233Bl9R4ZPq:
+        slug: other_tools_utility_libraries
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: utility_libraries
+    JwvJO7F9djHR:
+        slug: other_tools_text_editors
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: text_editors
+    UsUqsZoNcxHY:
+        slug: opinion_questions
+        typeform_type: group
+    oNBJ7LgvRhCg:
+        slug: opinion_questions_java_script_is_moving_in_the_right_direction
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_moving_in_right_direction
+    jzBHNrN3wuDa:
+        slug: opinion_questions_building_java_script_apps_is_overly_complex_right_now
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: building_js_apps_overly_complex
+    ZoLn97SqiQlj:
+        slug: opinion_questions_java_script_is_over_used_online
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_over_used_online
+    qaN74dncXWYr:
+        slug: opinion_questions_i_enjoy_building_java_script_apps
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: enjoy_building_js_apps
+    ZfpX81oDjhan:
+        slug: opinion_questions_i_would_like_java_script_to_be_my_main_programming_language
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: would_like_js_to_be_main_lang
+    vKXaExxnFH2r:
+        slug: opinion_questions_the_java_script_ecosystem_is_changing_too_fast
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_ecosystem_changing_to_fast
+    UOxVFHF7l2c4:
+        slug: opinion_questions_this_survey_is_too_damn_long
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: survey_too_long
+    y6miamiaxOhD:
+        slug: about_you
+        typeform_type: group
+    nUyhAVayYch4:
+        slug: about_you_years_of_experience
+        typeform_type: multiple_choice
+        type: years_of_experience
+    IJO3sTKdw5PD:
+        slug: about_you_company_size
+        typeform_type: multiple_choice
+        type: company_size
+    xMl4i3D1FWn9:
+        slug: about_you_yearly_salary
+        typeform_type: multiple_choice
+        type: yearly_salary
+    HJOngcCVYpZi:
+        slug: about_you_how_did_you_find_out_about_this_survey
+        typeform_type: short_text
+        type: source
+    T1GRpCxG20mK:
+        slug: about_you_your_gender
+        typeform_type: multiple_choice
+        type: gender
+    NA00DD60660P:
+        slug: about_you_your_email
+        typeform_type: email
+        type: email
+    p1E19tAJvQvx:
+        slug: about_you_your_country
+        typeform_type: short_text
+        type: country
+    RS2W40InH1yo:
+        slug: about_you_your_city
+        typeform_type: short_text
+        type: null
+    BQQz0yUXfVv8:
+        slug: about_you_other_comments
+        typeform_type: long_text

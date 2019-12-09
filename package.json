@@ -1,0 +1,20 @@
+{
+  "name": "state-of-tf-extractor",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Raphaël Benitte <raphael@cooori.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.12",
+    "apollo-server-plugin-response-cache": "^0.3.8",
+    "axios": "^0.19.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.5.0",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.5",
+    "yamljs": "^0.3.0"
+  }
+}

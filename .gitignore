@@ -1,0 +1,9 @@
+responses-state-of-*
+.idea
+.DS_Store
+node_modules
+data/raw_responses
+data/normalized_responses
+data/normalized_responses_anon
+data/test.json
+.env

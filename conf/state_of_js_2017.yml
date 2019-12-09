@@ -1,0 +1,749 @@
+survey: js
+year: 2017
+source: typeform
+typeformId: S5iLk9
+sections:
+    javascript_flavors:
+        title: 'JavaScript Flavor'
+        tools:
+            - vanillajs
+            - es6
+            - typescript
+            - flow
+            - elm
+            - clojurescript
+            - reason
+    front_end_frameworks:
+        title: Front-End
+        freeform: 'Other Front-End Frameworks'
+        tools:
+            - react
+            - angular
+            - angular
+            - ember
+            - vuejs
+            - backbone
+            - polymer
+            - aurelia
+            - nofrontendframework
+    data_layer:
+        title: 'Data Layer'
+        freeform: 'Other Data Management Solutions'
+        tools:
+            - rest
+            - redux
+            - mobx
+            - graphql
+            - relay
+            - falcor
+            - apollo
+            - firebase
+    backend_frameworks:
+        title: Back-End
+        freeform: 'Other Back-End Tools'
+        tools:
+            - meteor
+            - express
+            - koa
+            - hapi
+            - feathers
+            - sails
+            - loopback
+            - keystone
+    testing:
+        title: Testing
+        freeform: 'Other testing frameworks'
+        tools:
+            - mocha
+            - jasmine
+            - enzyme
+            - jest
+            - tape
+            - ava
+    css:
+        title: CSS
+        freeform: 'Other CSS solutions'
+        tools:
+            - plaincss
+            - sass
+            - stylus
+            - less
+            - css-in-js
+            - bootstrap
+            - foundation
+    build_tools:
+        title: 'Build Tools'
+        freeform: 'Other build tools'
+        tools:
+            - webpack
+            - grunt
+            - gulp
+            - browserify
+            - npm
+            - rollup
+    mobile_desktop:
+        title: 'Mobile & Desktop'
+        freeform: 'Other mobile/desktop apps solutions'
+        tools:
+            - nativeapps
+            - reactnative
+            - ionic
+            - cordova
+            - nativescript
+            - electron
+experience:
+    'I''ve USED it before, and WOULD use it again': would_use
+    'I''ve USED it before, and would NOT use it again': would_not_use
+    'I''ve HEARD of it, and WOULD like to learn it': interested
+    'I''ve HEARD of it, and am NOT interested': not_interested
+    'I''ve never heard of it': never_heard
+tools:
+    - vanillajs
+    - es6
+    - typescript
+    - flow
+    - elm
+    - clojurescript
+    - reason
+    - react
+    - angular
+    - angular
+    - ember
+    - vuejs
+    - backbone
+    - polymer
+    - aurelia
+    - nofrontendframework
+    - rest
+    - redux
+    - mobx
+    - graphql
+    - relay
+    - falcor
+    - apollo
+    - firebase
+    - meteor
+    - express
+    - koa
+    - hapi
+    - feathers
+    - sails
+    - loopback
+    - keystone
+    - mocha
+    - jasmine
+    - enzyme
+    - jest
+    - tape
+    - ava
+    - plaincss
+    - sass
+    - stylus
+    - less
+    - css-in-js
+    - bootstrap
+    - foundation
+    - webpack
+    - grunt
+    - gulp
+    - browserify
+    - npm
+    - rollup
+    - nativeapps
+    - reactnative
+    - ionic
+    - cordova
+    - nativescript
+    - electron
+otherTools:
+    - package_managers
+    - utility_libraries
+    - text_editors
+    - code_linters
+userInfo:
+    - years_of_experience
+    - company_size
+    - yearly_salary
+    - email
+    - source
+    - country
+    - null
+fields:
+    '55569558':
+        slug: java_script_flavor_flow
+        typeform_type: multiple_choice
+        type: tool
+        tool: flow
+        section: javascript_flavors
+    '55570167':
+        slug: front_end_polymer
+        typeform_type: multiple_choice
+        type: tool
+        tool: polymer
+        section: front_end_frameworks
+    '55570222':
+        slug: front_end_aurelia
+        typeform_type: multiple_choice
+        type: tool
+        tool: aurelia
+        section: front_end_frameworks
+    '55570923':
+        slug: css_stylus
+        typeform_type: multiple_choice
+        type: tool
+        tool: stylus
+        section: css
+    '55571031':
+        slug: data_layer_falcor
+        typeform_type: multiple_choice
+        type: tool
+        tool: falcor
+        section: data_layer
+    '55571448':
+        slug: back_end_express
+        typeform_type: multiple_choice
+        type: tool
+        tool: express
+        section: backend_frameworks
+    '55571469':
+        slug: back_end_koa
+        typeform_type: multiple_choice
+        type: tool
+        tool: koa
+        section: backend_frameworks
+    '55571498':
+        slug: back_end_hapi
+        typeform_type: multiple_choice
+        type: tool
+        tool: hapi
+        section: backend_frameworks
+    '55571612':
+        slug: build_tools_npm
+        typeform_type: multiple_choice
+        type: tool
+        tool: npm
+        section: build_tools
+    '55571695':
+        slug: build_tools_rollup
+        typeform_type: multiple_choice
+        type: tool
+        tool: rollup
+        section: build_tools
+    '55571740':
+        slug: java_script_flavor_reason
+        typeform_type: multiple_choice
+        type: tool
+        tool: reason
+        section: javascript_flavors
+    '55571771':
+        slug: mobile_desktop_electron
+        typeform_type: multiple_choice
+        type: tool
+        tool: electron
+        section: mobile_desktop
+    '55571803':
+        slug: features_service_workers
+        typeform_type: multiple_choice
+    '55571869':
+        slug: css_bootstrap
+        typeform_type: multiple_choice
+        type: tool
+        tool: bootstrap
+        section: css
+    '55571871':
+        slug: css_foundation
+        typeform_type: multiple_choice
+        type: tool
+        tool: foundation
+        section: css
+    '55577990':
+        slug: mobile_desktop_ionic
+        typeform_type: multiple_choice
+        type: tool
+        tool: ionic
+        section: mobile_desktop
+    '55676946':
+        slug: other_tools
+        typeform_type: group
+    '55677233':
+        slug: other_tools_code_linters
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: code_linters
+    '55677344':
+        slug: other_tools_utility_libraries
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: utility_libraries
+    '55677569':
+        slug: about_you_semicolons_yes_or_no
+        typeform_type: multiple_choice
+    '55680622':
+        slug: other_tools_package_managers
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: package_managers
+    '55778171':
+        slug: about_you_how_did_you_find_out_about_this_survey
+        typeform_type: short_text
+        type: source
+    '55790065':
+        slug: features_offline_usage
+        typeform_type: multiple_choice
+    '55791153':
+        slug: back_end_sails
+        typeform_type: multiple_choice
+        type: tool
+        tool: sails
+        section: backend_frameworks
+    '55791174':
+        slug: back_end_loopback
+        typeform_type: multiple_choice
+        type: tool
+        tool: loopback
+        section: backend_frameworks
+    '55791275':
+        slug: back_end_keystone
+        typeform_type: multiple_choice
+        type: tool
+        tool: keystone
+        section: backend_frameworks
+    '56233483':
+        slug: about_you_your_country
+        typeform_type: short_text
+        type: country
+    '56233489':
+        slug: about_you_your_city
+        typeform_type: short_text
+        type: null
+    Ycf3:
+        slug: front_end
+        typeform_type: group
+    ZxUD:
+        slug: front_end_react
+        typeform_type: multiple_choice
+        type: tool
+        tool: react
+        section: front_end_frameworks
+    nPic:
+        slug: front_end_angular
+        typeform_type: multiple_choice
+        type: tool
+        tool: angular
+        section: front_end_frameworks
+    Fqkn:
+        slug: front_end_angular_2
+        typeform_type: multiple_choice
+        type: tool
+        tool: angular
+        section: front_end_frameworks
+    Gk1R:
+        slug: front_end_ember
+        typeform_type: multiple_choice
+        type: tool
+        tool: ember
+        section: front_end_frameworks
+    Fxzs:
+        slug: front_end_vue
+        typeform_type: multiple_choice
+        type: tool
+        tool: vuejs
+        section: front_end_frameworks
+    kT0P:
+        slug: front_end_backbone
+        typeform_type: multiple_choice
+        type: tool
+        tool: backbone
+        section: front_end_frameworks
+    i5QX:
+        slug: front_end_no_front_end_framework
+        typeform_type: multiple_choice
+        type: tool
+        tool: nofrontendframework
+        section: front_end_frameworks
+    f0gX:
+        slug: front_end_other_front_end_frameworks
+        typeform_type: long_text
+        type: section_other_tools
+        section: front_end_frameworks
+    y0kW:
+        slug: front_end_on_a_scale_of_one_to_five_cats_how_happy_are_you_with_your_current_solution_for_the_front_end
+        typeform_type: rating
+        type: overall_happiness
+        section: front_end_frameworks
+    it7e:
+        slug: java_script_flavor
+        typeform_type: group
+    uIGj:
+        slug: java_script_flavor_plain_java_script_es_5
+        typeform_type: multiple_choice
+        type: tool
+        tool: vanillajs
+        section: javascript_flavors
+    fQxL:
+        slug: java_script_flavor_es_6
+        typeform_type: multiple_choice
+        type: tool
+        tool: es6
+        section: javascript_flavors
+    O5iI:
+        slug: java_script_flavor_type_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: typescript
+        section: javascript_flavors
+    Fmdr:
+        slug: java_script_flavor_elm
+        typeform_type: multiple_choice
+        type: tool
+        tool: elm
+        section: javascript_flavors
+    Tv09:
+        slug: java_script_flavor_clojure_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: clojurescript
+        section: javascript_flavors
+    w2Tu:
+        slug: java_script_flavor_on_a_scale_of_one_to_five_dogs_how_happy_are_you_with_your_current_flavor_of_java_script
+        typeform_type: rating
+        type: overall_happiness
+        section: javascript_flavors
+    aFGH:
+        slug: data_layer
+        typeform_type: group
+    wqZL:
+        slug: data_layer_rest_api
+        typeform_type: multiple_choice
+        type: tool
+        tool: rest
+        section: data_layer
+    vjDD:
+        slug: data_layer_redux
+        typeform_type: multiple_choice
+        type: tool
+        tool: redux
+        section: data_layer
+    ug8Y:
+        slug: data_layer_mob_x
+        typeform_type: multiple_choice
+        type: tool
+        tool: mobx
+        section: data_layer
+    prYE:
+        slug: data_layer_graph_ql
+        typeform_type: multiple_choice
+        type: tool
+        tool: graphql
+        section: data_layer
+    ByoY:
+        slug: data_layer_relay_relay_modern
+        typeform_type: multiple_choice
+        type: tool
+        tool: relay
+        section: data_layer
+    WP7G:
+        slug: data_layer_apollo
+        typeform_type: multiple_choice
+        type: tool
+        tool: apollo
+        section: data_layer
+    NWen:
+        slug: data_layer_firebase
+        typeform_type: multiple_choice
+        type: tool
+        tool: firebase
+        section: data_layer
+    uR01:
+        slug: data_layer_other_data_management_solutions
+        typeform_type: long_text
+        type: section_other_tools
+        section: data_layer
+    CHBd:
+        slug: data_layer_on_a_scale_of_one_to_five_thunderbolts_how_happy_are_you_with_your_current_solution_for_state_management
+        typeform_type: rating
+        type: overall_happiness
+        section: data_layer
+    YVd8:
+        slug: back_end
+        typeform_type: group
+    A46m:
+        slug: back_end_meteor
+        typeform_type: multiple_choice
+        type: tool
+        tool: meteor
+        section: backend_frameworks
+    uPDA:
+        slug: back_end_feathers_js
+        typeform_type: multiple_choice
+        type: tool
+        tool: feathers
+        section: backend_frameworks
+    QX12:
+        slug: back_end_other_back_end_tools
+        typeform_type: long_text
+        type: section_other_tools
+        section: backend_frameworks
+    lUYG:
+        slug: back_end_on_a_scale_of_one_to_five_trophies_how_happy_are_you_with_your_current_back_end_solution
+        typeform_type: rating
+        type: overall_happiness
+        section: backend_frameworks
+    jm6x:
+        slug: testing
+        typeform_type: group
+    zNoo:
+        slug: testing_mocha
+        typeform_type: multiple_choice
+        type: tool
+        tool: mocha
+        section: testing
+    Aqts:
+        slug: testing_jasmine
+        typeform_type: multiple_choice
+        type: tool
+        tool: jasmine
+        section: testing
+    zasr:
+        slug: testing_enzyme
+        typeform_type: multiple_choice
+        type: tool
+        tool: enzyme
+        section: testing
+    TJLc:
+        slug: testing_jest
+        typeform_type: multiple_choice
+        type: tool
+        tool: jest
+        section: testing
+    m0hs:
+        slug: testing_tape
+        typeform_type: multiple_choice
+        type: tool
+        tool: tape
+        section: testing
+    BE1m:
+        slug: testing_ava
+        typeform_type: multiple_choice
+        type: tool
+        tool: ava
+        section: testing
+    hCPF:
+        slug: testing_other_testing_frameworks
+        typeform_type: long_text
+        type: section_other_tools
+        section: testing
+    sAAJ:
+        slug: testing_on_a_scale_of_one_to_five_severed_hands_how_happy_are_you_with_the_current_state_of_java_script_testing
+        typeform_type: rating
+        type: overall_happiness
+        section: testing
+    mgni:
+        slug: css
+        typeform_type: group
+    ViEz:
+        slug: css_plain_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: plaincss
+        section: css
+    C7Sz:
+        slug: css_sass_scss
+        typeform_type: multiple_choice
+        type: tool
+        tool: sass
+        section: css
+    YyTC:
+        slug: css_less
+        typeform_type: multiple_choice
+        type: tool
+        tool: less
+        section: css
+    CJjB:
+        slug: css_css_in_js
+        typeform_type: multiple_choice
+        type: tool
+        tool: css-in-js
+        section: css
+    Meh3:
+        slug: css_other_css_solutions
+        typeform_type: long_text
+        type: section_other_tools
+        section: css
+    nZC0:
+        slug: css_on_a_scale_of_one_to_five_lightbulbs_how_happy_are_you_with_the_current_state_of_css
+        typeform_type: rating
+        type: overall_happiness
+        section: css
+    YEnr:
+        slug: build_tools
+        typeform_type: group
+    Mk8w:
+        slug: build_tools_webpack
+        typeform_type: multiple_choice
+        type: tool
+        tool: webpack
+        section: build_tools
+    bR7L:
+        slug: build_tools_grunt
+        typeform_type: multiple_choice
+        type: tool
+        tool: grunt
+        section: build_tools
+    XPBe:
+        slug: build_tools_gulp
+        typeform_type: multiple_choice
+        type: tool
+        tool: gulp
+        section: build_tools
+    YSvT:
+        slug: build_tools_browserify
+        typeform_type: multiple_choice
+        type: tool
+        tool: browserify
+        section: build_tools
+    UzYH:
+        slug: build_tools_other_build_tools
+        typeform_type: long_text
+        type: section_other_tools
+        section: build_tools
+    Qx46:
+        slug: build_tools_on_a_scale_of_one_to_five_droplets_how_happy_are_you_with_the_current_state_of_build_tools
+        typeform_type: rating
+        type: overall_happiness
+        section: build_tools
+    SGLY:
+        slug: mobile_desktop
+        typeform_type: group
+    IZ0M:
+        slug: mobile_desktop_native_apps
+        typeform_type: multiple_choice
+        type: tool
+        tool: nativeapps
+        section: mobile_desktop
+    Xs6a:
+        slug: mobile_desktop_react_native
+        typeform_type: multiple_choice
+        type: tool
+        tool: reactnative
+        section: mobile_desktop
+    kOzD:
+        slug: mobile_desktop_phone_gap_cordova
+        typeform_type: multiple_choice
+        type: tool
+        tool: cordova
+        section: mobile_desktop
+    mg07:
+        slug: mobile_desktop_native_script
+        typeform_type: multiple_choice
+        type: tool
+        tool: nativescript
+        section: mobile_desktop
+    uFwz:
+        slug: mobile_desktop_other_mobile_desktop_apps_solutions
+        typeform_type: long_text
+        type: section_other_tools
+        section: mobile_desktop
+    qeuD:
+        slug: mobile_desktop_on_a_scale_of_one_to_five_pencils_how_happy_are_you_with_the_current_state_of_mobile_apps
+        typeform_type: rating
+        type: overall_happiness
+        section: mobile_desktop
+    Gwo0:
+        slug: other_tools_text_editors
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: text_editors
+    iKT4:
+        slug: features
+        typeform_type: group
+    QHBS:
+        slug: features_server_side_rendering
+        typeform_type: multiple_choice
+    WaRZ:
+        slug: features_code_splitting
+        typeform_type: multiple_choice
+    pTmF:
+        slug: features_optimistic_updates
+        typeform_type: multiple_choice
+    Zkh7:
+        slug: features_hot_module_reloading
+        typeform_type: multiple_choice
+    khxV:
+        slug: features_time_travel_debugging
+        typeform_type: multiple_choice
+    FwFK:
+        slug: features_real_time_operations
+        typeform_type: multiple_choice
+    Jlzm:
+        slug: features_dead_code_elimination
+        typeform_type: multiple_choice
+    l5jS:
+        slug: features_progressive_enhancement
+        typeform_type: multiple_choice
+    uGUL:
+        slug: features_other_features
+        typeform_type: long_text
+    TeiP:
+        slug: opinion_questions
+        typeform_type: group
+    p6If:
+        slug: opinion_questions_java_script_is_moving_in_the_right_direction
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_moving_in_right_direction
+    eqDY:
+        slug: opinion_questions_building_java_script_apps_is_overly_complex_right_now
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: building_js_apps_overly_complex
+    vpaM:
+        slug: opinion_questions_java_script_is_over_used_online
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_over_used_online
+    cSIl:
+        slug: opinion_questions_i_enjoy_building_java_script_apps
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: enjoy_building_js_apps
+    wFME:
+        slug: opinion_questions_i_would_like_java_script_to_be_my_main_programming_language
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: would_like_js_to_be_main_lang
+    cHRn:
+        slug: opinion_questions_the_java_script_ecosystem_is_changing_too_fast
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: js_ecosystem_changing_to_fast
+    dPi9:
+        slug: opinion_questions_this_survey_is_too_damn_long
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: survey_too_long
+    tMlJ:
+        slug: about_you
+        typeform_type: group
+    fbQg:
+        slug: about_you_years_of_experience
+        typeform_type: multiple_choice
+        type: years_of_experience
+    OoKe:
+        slug: about_you_company_size
+        typeform_type: multiple_choice
+        type: company_size
+    jyR0:
+        slug: about_you_yearly_salary
+        typeform_type: multiple_choice
+        type: yearly_salary
+    RX1e:
+        slug: about_you_tabs_or_spaces
+        typeform_type: multiple_choice
+    Fvkq:
+        slug: about_you_your_email
+        typeform_type: email
+        type: email
+    ccGC:
+        slug: about_you_other_comments
+        typeform_type: long_text

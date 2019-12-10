@@ -123,6 +123,13 @@ program
     })
 
 program
+    .command('mongo-reset-year <survey> <year>')
+    .description('reset normalized mongo collection for a given year and survey')
+    .action(async (survey, year) => {
+        await cleanupMongoResponses({ survey, year: Number(year) })
+    })
+
+program
     .command('mongo-norm <survey> <year>')
     .description('normalize mongo responses, and store them locally in ndjson')
     .action(async (survey, year) => {

@@ -1,4 +1,4 @@
-import { sections, experience, gender } from '../lib/constants.mjs'
+import { sections, experience, gender, salary } from '../lib/constants.mjs'
 
 export default [
     {
@@ -297,6 +297,15 @@ export default [
             'Female': gender.FEMALE,
             'Non-binary/ third gender': gender.NONBINARY,
             'Prefer not to say': gender.NOTSAY,
+        },
+        salary: {
+            'I work for free :(': salary.FREE,
+            '$0-$10k': salary.RANGE_0_10,
+            '$10k-$30k': salary.RANGE_10_30,
+            '$30k-$50k': salary.RANGE_30_50,
+            '$50k-$100k': salary.RANGE_50_100,
+            '$100k-$200k': salary.RANGE_100_200,
+            '$200k+': salary.MORE_THAN_200,
         },
         features: {
             'Destructuring': 'destructuring',

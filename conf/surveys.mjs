@@ -1,4 +1,4 @@
-import { sections, experience, gender, salary, workExperience } from '../lib/constants.mjs'
+import { sections, experience, gender, salary, workExperience, companySize } from '../lib/constants.mjs'
 
 export default [
     {
@@ -314,6 +314,16 @@ export default [
             '5-10 years': workExperience.RANGE_5_10,
             '10-20 years': workExperience.RANGE_10_20,
             '20+ years': workExperience.MORE_THAN_20,
+        },
+        companySize: {
+            'Just me': companySize.ONE,
+            '1-5 people': companySize.RANGE_1_5,
+            '5-10 people': companySize.RANGE_5_10,
+            '10-20 people': companySize.RANGE_10_20,
+            '20-50 people': companySize.RANGE_20_50,
+            '50-100 people': companySize.RANGE_50_100,
+            '100-1000 people': companySize.RANGE_100_1000,
+            '1000+ people': companySize.RANGE_more_than_1000,
         },
         features: {
             'Destructuring': 'destructuring',

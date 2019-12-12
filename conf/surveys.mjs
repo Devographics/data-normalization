@@ -1,4 +1,4 @@
-import { sections, experience, gender, salary } from '../lib/constants.mjs'
+import { sections, experience, gender, salary, workExperience } from '../lib/constants.mjs'
 
 export default [
     {
@@ -306,6 +306,14 @@ export default [
             '$50k-$100k': salary.RANGE_50_100,
             '$100k-$200k': salary.RANGE_100_200,
             '$200k+': salary.MORE_THAN_200,
+        },
+        workExperience: {
+            'Less than one year': workExperience.LESS_THAN_1,
+            '1-2 years': workExperience.RANGE_1_2,
+            '2-5 years': workExperience.RANGE_2_5,
+            '5-10 years': workExperience.RANGE_5_10,
+            '10-20 years': workExperience.RANGE_10_20,
+            '20+ years': workExperience.MORE_THAN_20,
         },
         features: {
             'Destructuring': 'destructuring',

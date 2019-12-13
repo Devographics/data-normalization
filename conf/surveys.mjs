@@ -1,4 +1,4 @@
-import { sections, experience, gender } from '../lib/constants.mjs'
+import { sections, experience, gender, salary, workExperience, companySize } from '../lib/constants.mjs'
 
 export default [
     {
@@ -299,6 +299,33 @@ export default [
             'Non-binary/ third gender': gender.NONBINARY,
             'Prefer not to say': gender.NOTSAY,
         },
+        salary: {
+            'I work for free :(': salary.FREE,
+            '$0-$10k': salary.RANGE_0_10,
+            '$10k-$30k': salary.RANGE_10_30,
+            '$30k-$50k': salary.RANGE_30_50,
+            '$50k-$100k': salary.RANGE_50_100,
+            '$100k-$200k': salary.RANGE_100_200,
+            '$200k+': salary.MORE_THAN_200,
+        },
+        workExperience: {
+            'Less than one year': workExperience.LESS_THAN_1,
+            '1-2 years': workExperience.RANGE_1_2,
+            '2-5 years': workExperience.RANGE_2_5,
+            '5-10 years': workExperience.RANGE_5_10,
+            '10-20 years': workExperience.RANGE_10_20,
+            '20+ years': workExperience.MORE_THAN_20,
+        },
+        companySize: {
+            'Just me': companySize.ONE,
+            '1-5 people': companySize.RANGE_1_5,
+            '5-10 people': companySize.RANGE_5_10,
+            '10-20 people': companySize.RANGE_10_20,
+            '20-50 people': companySize.RANGE_20_50,
+            '50-100 people': companySize.RANGE_50_100,
+            '100-1000 people': companySize.RANGE_100_1000,
+            '1000+ people': companySize.RANGE_more_than_1000,
+        },
         features: {
             'Destructuring': 'destructuring',
             'Spread operator': 'spread_operator',
@@ -416,34 +443,6 @@ export default [
             'Modern Web':'modern_web',
             'CodePen Radio':'codepen_radio',
         },
-        workExperience: {
-            'Less than one year': 'less_than_1',
-            '1-2 years': '1_2',
-            '2-5 years': '2_5',
-            '5-10 years': '5_10',
-            '10-20 years': '10_20',
-            '20+ years' : 'more_than_20'
-
-        },
-        companySize: {
-            'Just me':'1',
-            '1-5 people':'1_5',
-            '5-10 people':'5_10',
-            '10-20 people':'10_20',
-            '20-50 people':'20_50',
-            '50-100 people':'50_100',
-            '100-1000 people':'100_1000',
-            '1000+ people':'more_than_1000',
-        },
-        salary: {
-            'I work for free :(':'work_for_free',
-            '$0-$10k':'0_10',
-            '$10k-$30k':'10_30',
-            '$30k-$50k':'30_50',
-            '$50k-$100k':'50_100',
-            '$100k-$200k':'100_200',
-            '$200k+':'more_than_200',
-        }
     },
     {
         survey: 'css',

@@ -1,0 +1,773 @@
+survey: css
+year: 2019
+source: typeform
+typeformId: TxDuh6
+sections:
+    layout:
+        title: Layout
+        tools: []
+        features:
+            - grid
+            - flexbox
+            - multi_column
+            - writing_modes
+            - exclusions
+        features_used_by_category: []
+    shapes_and_graphics:
+        title: 'Shapes & Graphics'
+        tools: []
+        features:
+            - shapes
+            - object_fit
+            - clip_path
+            - masks
+            - blend_modes
+            - filter_effects
+        features_used_by_category: []
+    interactions:
+        title: Interactions
+        tools: []
+        features:
+            - scroll_snap
+            - overscroll_behavior
+            - overflow_anchor
+        features_used_by_category: []
+    typography:
+        title: Typography
+        tools: []
+        features:
+            - web_fonts
+            - variables_fonts
+            - line_breaking
+            - font_variant
+            - initial_letter
+        features_used_by_category: []
+    animations_and_transforms:
+        title: 'Animations & Transforms'
+        tools: []
+        features:
+            - transitions
+            - transforms
+            - animations
+        features_used_by_category: []
+    other_features:
+        title: 'Other Features'
+        tools: []
+        features:
+            - variables
+            - feature_support_queries
+            - containment
+            - will_change
+            - calc
+        features_used_by_category: []
+    units_and_selectors:
+        type: used_features_by_category
+        title: 'Units & Selectors'
+        tools: []
+        features: []
+        features_used_by_category:
+            - units
+            - pseudo_elements
+            - combinators
+            - tree_document_structure
+            - attributes
+            - links_urls
+            - interaction
+            - form_controls
+    pre_post_processors:
+        title: Pre-/Post-processors
+        freeform: 'Other Pre-/Post-processors options'
+        tools:
+            - sass
+            - less
+            - postcss
+            - stylus
+        features: []
+        features_used_by_category: []
+    css_frameworks:
+        title: 'CSS Frameworks'
+        freeform: 'Other CSS Frameworks options'
+        tools:
+            - bootstrap
+            - materialize
+            - ant_design
+            - semanticui
+            - bulma
+            - foundation
+            - uikit
+            - tachyons
+            - primer
+            - tailwind
+            - purecss
+        features: []
+        features_used_by_category: []
+    css_methodologies:
+        title: Methodologies
+        freeform: 'Other Methodologies options'
+        tools:
+            - bem
+            - atomic_design
+            - css
+            - css
+            - css
+        features: []
+        features_used_by_category: []
+    css_in_js:
+        title: CSS-in-JS
+        freeform: 'Other CSS-in-JS options'
+        tools:
+            - styled_components
+            - glamor
+            - aphrodite
+            - jss
+            - styled_jsx
+            - radium
+            - emotion
+            - cssmodules
+        features: []
+        features_used_by_category: []
+experience:
+    '👍 Used it > Would use again': would_use
+    '👎 Used it > Would avoid': would_not_use
+    '✅ Heard of it > Would like to learn': interested
+    '🚫 Heard of it > Not interested': not_interested
+    '🤷 Never heard of it/Not sure what it is': never_heard
+feature:
+    '🤷 Never heard of it/Not sure what it is': never_heard
+    '✅ Know what it is, but haven''t used it': heard
+    '👍 I''ve used it': used
+tools:
+    - sass
+    - less
+    - postcss
+    - stylus
+    - bootstrap
+    - materialize
+    - ant_design
+    - semanticui
+    - bulma
+    - foundation
+    - uikit
+    - tachyons
+    - primer
+    - tailwind
+    - purecss
+    - bem
+    - atomic_design
+    - css
+    - css
+    - css
+    - styled_components
+    - glamor
+    - aphrodite
+    - jss
+    - styled_jsx
+    - radium
+    - emotion
+    - cssmodules
+features:
+    - grid
+    - flexbox
+    - multi_column
+    - writing_modes
+    - exclusions
+    - shapes
+    - object_fit
+    - clip_path
+    - masks
+    - blend_modes
+    - filter_effects
+    - scroll_snap
+    - overscroll_behavior
+    - overflow_anchor
+    - web_fonts
+    - variables_fonts
+    - line_breaking
+    - font_variant
+    - initial_letter
+    - transitions
+    - transforms
+    - animations
+    - variables
+    - feature_support_queries
+    - containment
+    - will_change
+    - calc
+features_used_by_category:
+    - units
+    - pseudo_elements
+    - combinators
+    - tree_document_structure
+    - attributes
+    - links_urls
+    - interaction
+    - form_controls
+other_tools:
+    - text_editors
+    - browsers
+user_info:
+    - years_of_experience
+    - company_size
+    - yearly_salary
+    - email
+    - source
+    - gender
+    - country
+    - null
+fields:
+    c89BAjg9PKjD:
+        slug: layout
+        typeform_type: group
+    uIGktglwkq7p:
+        slug: layout_css_grid
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: grid
+        section: layout
+    cPJgyMqQN7dw:
+        slug: layout_flexbox
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: flexbox
+        section: layout
+    wItsxEbBqdrt:
+        slug: layout_css_multi_column
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: multi_column
+        section: layout
+    aSC2oEQOZ5jc:
+        slug: layout_css_writing_modes
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: writing_modes
+        section: layout
+    LWCqU3iUEfM7:
+        slug: layout_css_exclusions
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: exclusions
+        section: layout
+    rCUc77hIThpF:
+        slug: shapes_graphics
+        typeform_type: group
+    tKcidEsxJt3d:
+        slug: shapes_graphics_css_shapes
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: shapes
+        section: shapes_and_graphics
+    kl5E2OkWj2tD:
+        slug: shapes_graphics_object_fit
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: object_fit
+        section: shapes_and_graphics
+    PyyxeKQfqeKz:
+        slug: shapes_graphics_clip_path
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: clip_path
+        section: shapes_and_graphics
+    JKdhkaX5e0g1:
+        slug: shapes_graphics_css_masks
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: masks
+        section: shapes_and_graphics
+    qxjs64dXkeps:
+        slug: shapes_graphics_blend_modes
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: blend_modes
+        section: shapes_and_graphics
+    KFd1fy8DCLBk:
+        slug: shapes_graphics_css_filter_effects
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: filter_effects
+        section: shapes_and_graphics
+    xLEwSxyiFl93:
+        slug: interactions
+        typeform_type: group
+    z0lQOdtYJidx:
+        slug: interactions_css_scroll_snap
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: scroll_snap
+        section: interactions
+    dgGaHmPUMyLZ:
+        slug: interactions_overscroll_behavior
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: overscroll_behavior
+        section: interactions
+    VhKov3slwl4P:
+        slug: interactions_overflow_anchor
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: overflow_anchor
+        section: interactions
+    d4N69X3SkltE:
+        slug: typography
+        typeform_type: group
+    t4LzbYo3CBV6:
+        slug: typography_web_fonts_font_face
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: web_fonts
+        section: typography
+    UGSbWnkYjA4X:
+        slug: typography_variable_fonts
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: variables_fonts
+        section: typography
+    tg8d6rzXEYbN:
+        slug: typography_line_breaking_properties_overflow_wrap_word_break_line_break_hyphens
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: line_breaking
+        section: typography
+    BcMGUFAYLRZR:
+        slug: typography_font_variant
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: font_variant
+        section: typography
+    TsaEEwpF5BZS:
+        slug: typography_initial_letter
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: initial_letter
+        section: typography
+    ECNi1Ctg8GvI:
+        slug: animations_transforms
+        typeform_type: group
+    uYq6KkFB2z8f:
+        slug: animations_transforms_css_transitions
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: transitions
+        section: animations_and_transforms
+    KhpvKAdCM7zl:
+        slug: animations_transforms_css_transforms
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: transforms
+        section: animations_and_transforms
+    zVKjqCemQTJO:
+        slug: animations_transforms_css_animations
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: animations
+        section: animations_and_transforms
+    z1zZtswRuSHa:
+        slug: other_features
+        typeform_type: group
+    MsUZh0wcFAM1:
+        slug: other_features_css_variables
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: variables
+        section: other_features
+    e299qXyVmsxs:
+        slug: other_features_feature_support_queries_supports
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: feature_support_queries
+        section: other_features
+    il1ZJjfCnWIv:
+        slug: other_features_css_containment
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: containment
+        section: other_features
+    AanUVbDHQOA7:
+        slug: other_features_will_change
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: will_change
+        section: other_features
+    CqoCvI0OumaD:
+        slug: other_features_calc
+        typeform_type: multiple_choice
+        type: feature_experience
+        feature: calc
+        section: other_features
+    cGwZiWqAI6No:
+        slug: units_selectors
+        typeform_type: group
+    hmLZZKkCBfl0:
+        slug: units_selectors_units
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: units
+        section: units_and_selectors
+    qMtj8Z4wxMJy:
+        slug: units_selectors_pseudo_elements
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: pseudo_elements
+        section: units_and_selectors
+    csKVUYeHlCbX:
+        slug: units_selectors_combinators
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: combinators
+        section: units_and_selectors
+    yUgFhnpaaTcr:
+        slug: units_selectors_tree_document_structure
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: tree_document_structure
+        section: units_and_selectors
+    RslcdNaSwgm1:
+        slug: units_selectors_attributes
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: attributes
+        section: units_and_selectors
+    WYR1muPZGs7o:
+        slug: units_selectors_links_ur_ls
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: links_urls
+        section: units_and_selectors
+    TqTtS8N0xfrF:
+        slug: units_selectors_interaction
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: interaction
+        section: units_and_selectors
+    s6Vv3sFSxsHZ:
+        slug: units_selectors_form_controls
+        typeform_type: multiple_choice
+        type: features_used_by_category
+        feature: form_controls
+        section: units_and_selectors
+    XkoLJdi6DdFo:
+        slug: pre_post_processors
+        typeform_type: group
+    YfS7PQLy6v0I:
+        slug: pre_post_processors_sass
+        typeform_type: multiple_choice
+        type: tool
+        tool: sass
+        section: pre_post_processors
+    qT5nLLLpyjuW:
+        slug: pre_post_processors_less
+        typeform_type: multiple_choice
+        type: tool
+        tool: less
+        section: pre_post_processors
+    ICx2XCasdxPA:
+        slug: pre_post_processors_post_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: postcss
+        section: pre_post_processors
+    zqBKdGQdnoMz:
+        slug: pre_post_processors_stylus
+        typeform_type: multiple_choice
+        type: tool
+        tool: stylus
+        section: pre_post_processors
+    tTCGPRN19hRy:
+        slug: pre_post_processors_other_pre_post_processors_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: pre_post_processors
+    UmVWAxzArATX:
+        slug: css_frameworks
+        typeform_type: group
+    yid3q1LkPVTy:
+        slug: css_frameworks_bootstrap
+        typeform_type: multiple_choice
+        type: tool
+        tool: bootstrap
+        section: css_frameworks
+    hfh1HrHKzijX:
+        slug: css_frameworks_materialize_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: materialize
+        section: css_frameworks
+    zYOClgLorLGP:
+        slug: css_frameworks_ant_design
+        typeform_type: multiple_choice
+        type: tool
+        tool: ant_design
+        section: css_frameworks
+    z7zNRAG2J2p5:
+        slug: css_frameworks_semantic_ui
+        typeform_type: multiple_choice
+        type: tool
+        tool: semanticui
+        section: css_frameworks
+    IZ5sGPy4xWsx:
+        slug: css_frameworks_bulma
+        typeform_type: multiple_choice
+        type: tool
+        tool: bulma
+        section: css_frameworks
+    pggStHRQKBZd:
+        slug: css_frameworks_foundation
+        typeform_type: multiple_choice
+        type: tool
+        tool: foundation
+        section: css_frameworks
+    F12rOg7qNcbM:
+        slug: css_frameworks_ui_kit
+        typeform_type: multiple_choice
+        type: tool
+        tool: uikit
+        section: css_frameworks
+    YZYclC9RfC4l:
+        slug: css_frameworks_tachyons
+        typeform_type: multiple_choice
+        type: tool
+        tool: tachyons
+        section: css_frameworks
+    Rb5ekqajOJ3a:
+        slug: css_frameworks_primer
+        typeform_type: multiple_choice
+        type: tool
+        tool: primer
+        section: css_frameworks
+    PIasVtIMjDjN:
+        slug: css_frameworks_tailwind
+        typeform_type: multiple_choice
+        type: tool
+        tool: tailwind
+        section: css_frameworks
+    GNEBdGRsg99i:
+        slug: css_frameworks_pure_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: purecss
+        section: css_frameworks
+    c9Zmc6vYxMic:
+        slug: css_frameworks_other_css_frameworks_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: css_frameworks
+    K4Ua4nkLbi6v:
+        slug: methodologies
+        typeform_type: group
+    f76BEzs8ourG:
+        slug: methodologies_bem
+        typeform_type: multiple_choice
+        type: tool
+        tool: bem
+        section: css_methodologies
+    GmcP6TfpAV75:
+        slug: methodologies_atomic_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: atomic_design
+        section: css_methodologies
+    zepIywuH0DaP:
+        slug: methodologies_oocss
+        typeform_type: multiple_choice
+        type: tool
+        tool: css
+        section: css_methodologies
+    jsNmTXCsLOTW:
+        slug: methodologies_smacss
+        typeform_type: multiple_choice
+        type: tool
+        tool: css
+        section: css_methodologies
+    ZcAKfB1HO2Yx:
+        slug: methodologies_it_css
+        typeform_type: multiple_choice
+        type: tool
+        tool: css
+        section: css_methodologies
+    bPuy3vvhEDd9:
+        slug: methodologies_other_methodologies_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: css_methodologies
+    wJXiB1mhIkv9:
+        slug: css_in_js
+        typeform_type: group
+    EM2kUkGvazQZ:
+        slug: css_in_js_styled_components
+        typeform_type: multiple_choice
+        type: tool
+        tool: styled_components
+        section: css_in_js
+    WlJIzOBHoUfp:
+        slug: css_in_js_glamor
+        typeform_type: multiple_choice
+        type: tool
+        tool: glamor
+        section: css_in_js
+    N3oEZf46cY8O:
+        slug: css_in_js_aphrodite
+        typeform_type: multiple_choice
+        type: tool
+        tool: aphrodite
+        section: css_in_js
+    logwZ5yzVTsU:
+        slug: css_in_js_jss
+        typeform_type: multiple_choice
+        type: tool
+        tool: jss
+        section: css_in_js
+    JDKCRi4A4J2q:
+        slug: css_in_js_styled_jsx
+        typeform_type: multiple_choice
+        type: tool
+        tool: styled_jsx
+        section: css_in_js
+    fcaVY1Ndoy1r:
+        slug: css_in_js_radium
+        typeform_type: multiple_choice
+        type: tool
+        tool: radium
+        section: css_in_js
+    l4ndGoyMUNdr:
+        slug: css_in_js_emotion
+        typeform_type: multiple_choice
+        type: tool
+        tool: emotion
+        section: css_in_js
+    tou9R97YnG5x:
+        slug: css_in_js_css_modules
+        typeform_type: multiple_choice
+        type: tool
+        tool: cssmodules
+        section: css_in_js
+    Qii3cTAXuKe1:
+        slug: css_in_js_other_css_in_js_options
+        typeform_type: long_text
+        type: section_other_tools
+        section: css_in_js
+    DvB6JPNnIRfs:
+        slug: other_tools
+        typeform_type: group
+    un466jD3JKsp:
+        slug: other_tools_text_editors
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: text_editors
+    hMFpBw6edbko:
+        slug: other_tools_browsers
+        typeform_type: multiple_choice
+        type: other_tools
+        topic: browsers
+    RGcdxwRga8aE:
+        slug: environments
+        typeform_type: group
+    bzmkerUdVxhP:
+        slug: environments_browsers
+        typeform_type: multiple_choice
+    jMxKxuf2PBvc:
+        slug: environments_form_factors
+        typeform_type: multiple_choice
+    kI1o7Eg1Y1Sg:
+        slug: environments_css_for_print
+        typeform_type: multiple_choice
+    o9vEawz2PWAY:
+        slug: environments_css_for_email_clients
+        typeform_type: multiple_choice
+    z79X5dNP6vv7:
+        slug: resources
+        typeform_type: group
+    hHpdTsdpREoT:
+        slug: resources_blogs_magazines
+        typeform_type: multiple_choice
+    wzi4gtevGDtI:
+        slug: resources_sites_courses
+        typeform_type: multiple_choice
+    YwJYWWN24EC7:
+        slug: resources_podcasts
+        typeform_type: multiple_choice
+    PUv05Lpm7psX:
+        slug: opinion_questions
+        typeform_type: group
+    zJogsw6WGZ56:
+        slug: opinion_questions_css_is_easy_to_learn
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: css_easy_to_learn
+    ZGntnAjmniQL:
+        slug: opinion_questions_css_is_evolving_too_slowly
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: css_evolving_slowly
+    VNl3rRvdN3ZF:
+        slug: opinion_questions_utility_non_semantic_classes_center_large_text_etc_should_be_avoided
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: utility_classes_to_be_avoided
+    bo71ervW9Iac:
+        slug: opinion_questions_selector_nesting_foo_bar_ul_li_should_be_avoided
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: selector_nesting_to_be_avoided
+    TGFLaMI9Mrs1:
+        slug: opinion_questions_css_is_a_programming_language
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: css_is_programming_language
+    CYLE9SAWrrSn:
+        slug: opinion_questions_i_enjoy_writing_css
+        typeform_type: opinion_scale
+        type: opinion_questions
+        subject: enjoy_writing_css
+    PZz5MQhX1PLg:
+        slug: opinion_questions_what_do_you_feel_is_currently_missing_from_css
+        typeform_type: long_text
+        type: opinion_questions
+        subject: currently_missing_from_css
+    diC8JCSGnupV:
+        slug: about_you
+        typeform_type: group
+    bz9Qt0uqPSIe:
+        slug: about_you_years_of_experience
+        typeform_type: multiple_choice
+        type: years_of_experience
+    VJ0Xkty6TvJ2:
+        slug: about_you_job_title
+        typeform_type: multiple_choice
+    n5IpMFkCA2Jo:
+        slug: about_you_java_script_proficiency
+        typeform_type: multiple_choice
+    q4ilL72dqFXm:
+        slug: about_you_back_end_proficiency
+        typeform_type: multiple_choice
+    o7LTGkALXyRo:
+        slug: about_you_company_size
+        typeform_type: multiple_choice
+        type: company_size
+    E6DQ1GcDBxgc:
+        slug: about_you_yearly_salary
+        typeform_type: multiple_choice
+        type: yearly_salary
+    ozoSDiNymcN3:
+        slug: about_you_how_did_you_find_out_about_this_survey
+        typeform_type: short_text
+        type: source
+    m59BGZ5sUcfT:
+        slug: about_you_your_gender
+        typeform_type: multiple_choice
+        type: gender
+    txy6nzddOrSq:
+        slug: about_you_your_email
+        typeform_type: email
+        type: email
+    LY9uis77wj3C:
+        slug: about_you_your_country
+        typeform_type: short_text
+        type: country
+    oKisgxvahm4P:
+        slug: about_you_your_city
+        typeform_type: short_text
+        type: null
+    RGD9EB35uLzX:
+        slug: about_you_other_comments
+        typeform_type: long_text

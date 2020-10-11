@@ -1,4 +1,13 @@
-import { sections, experience, gender, salary, workExperience, companySize } from '../lib/constants.mjs'
+import {
+    sections,
+    experience,
+    feature,
+    SECTION_TYPE_USED_FEATURES_BY_CATEGORY,
+    gender,
+    salary,
+    workExperience,
+    companySize,
+} from '../lib/constants.mjs'
 
 export default [
     {
@@ -50,6 +59,7 @@ export default [
             [`I've heard of it, and am not interested`]: experience.NOT_INTERESTED,
             [`I've never heard of it`]: experience.NEVER_HEARD
         },
+        feature: {},
     },
     {
         survey: 'js',
@@ -95,7 +105,8 @@ export default [
             [`I've HEARD of it, and WOULD like to learn it`]: experience.INTERESTED,
             [`I've HEARD of it, and am NOT interested`]: experience.NOT_INTERESTED,
             [`I've never heard of it`]: experience.NEVER_HEARD
-        }
+        },
+        feature: {},
     },
     {
         survey: 'js',
@@ -134,7 +145,8 @@ export default [
             [`✅ Heard of it > Would like to learn`]: experience.INTERESTED,
             [`🚫 Heard of it > Not interested`]: experience.NOT_INTERESTED,
             [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD
-        }
+        },
+        feature: {},
     },
     {
         survey: 'js',
@@ -148,7 +160,7 @@ export default [
             completion: '=',
             device: 'user_info.device',
             referrer: 'user_info.referrer',
-            source: 'user_info.source',
+            // source: 'user_info.source',
             os: '=',
             browser: '=',
             version: '=',
@@ -293,7 +305,7 @@ export default [
             not_interested: experience.NOT_INTERESTED,
             neverheard: experience.NEVER_HEARD
         },
-
+        feature: {},
         gender: {
             'Male': gender.MALE,
             'Female': gender.FEMALE,
@@ -325,7 +337,7 @@ export default [
             '20-50 people': companySize.RANGE_20_50,
             '50-100 people': companySize.RANGE_50_100,
             '100-1000 people': companySize.RANGE_100_1000,
-            '1000+ people': companySize.RANGE_more_than_1000,
+            '1000+ people': companySize.RANGE_MORE_THAN_1000,
         },
         backendProficiency: {
             'Level 1: not able to handle any back-end work': 0,
@@ -464,5 +476,65 @@ export default [
         year: 2019,
         source: 'typeform',
         typeformId: 'TxDuh6',
+        sections: {
+            // Features
+            [sections.LAYOUT]: {
+                title: 'Layout',
+            },
+            [sections.SHAPES_AND_GRAPHICS]: {
+                title: 'Shapes & Graphics',
+            },
+            [sections.INTERACTIONS]: {
+                title: 'Interactions',
+            },
+            [sections.TYPOGRAPHY]: {
+                title: 'Typography',
+            },
+            [sections.ANIMATIONS_AND_TRANSFORMS]: {
+                title: 'Animations & Transforms',
+            },
+            [sections.ANIMATIONS_AND_TRANSFORMS]: {
+                title: 'Animations & Transforms',
+            },
+            [sections.ANIMATIONS_AND_TRANSFORMS]: {
+                title: 'Animations & Transforms',
+            },
+            [sections.OTHER_FEATURES]: {
+                title: 'Other Features',
+            },
+            [sections.UNITS_AND_SELECTORS]: {
+                type: SECTION_TYPE_USED_FEATURES_BY_CATEGORY,
+                title: 'Units & Selectors',
+            },
+            // Technologies
+            [sections.PRE_POST_PROCESSORS]: {
+                title: 'Pre-/Post-processors',
+                freeform: 'Other Pre-/Post-processors options',
+            },
+            [sections.CSS_FRAMEWORKS]: {
+                title: 'CSS Frameworks',
+                freeform: 'Other CSS Frameworks options',
+            },
+            [sections.CSS_METHODOLOGIES]: {
+                title: 'Methodologies',
+                freeform: 'Other Methodologies options',
+            },
+            [sections.CSS_IN_JS]: {
+                title: 'CSS-in-JS',
+                freeform: 'Other CSS-in-JS options',
+            },
+        },
+        experience: {
+            [`👍 Used it > Would use again`]: experience.WOULD_USE,
+            [`👎 Used it > Would avoid`]: experience.WOULD_NOT_USE,
+            [`✅ Heard of it > Would like to learn`]: experience.INTERESTED,
+            [`🚫 Heard of it > Not interested`]: experience.NOT_INTERESTED,
+            [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD
+        },
+        feature: {
+            [`🤷 Never heard of it/Not sure what it is`]: feature.NEVER_HEARD,
+            [`✅ Know what it is, but haven't used it`]: feature.HEARD,
+            [`👍 I've used it`]: feature.USED,
+        },
     },
 ]

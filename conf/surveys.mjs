@@ -17,47 +17,47 @@ export default [
         typeformId: 'Mulmxw',
         sections: {
             [sections.JAVASCRIPT_FLAVORS]: {
-                title: 'JavaScript Flavor'
+                title: 'JavaScript Flavor',
             },
             [sections.FRONTEND_FRAMEWORKS]: {
                 title: 'Front-End',
-                freeform: 'Other Front-End Frameworks'
+                freeform: 'Other Front-End Frameworks',
             },
             [sections.STATE_MANAGEMENT]: {
                 title: 'State Management',
-                freeform: 'Other State Management Libraries'
+                freeform: 'Other State Management Libraries',
             },
             [sections.DATA_LAYER]: {
                 title: 'API Layer',
-                freeform: 'Other API layer solutions'
+                freeform: 'Other API layer solutions',
             },
             [sections.BACKEND_FRAMEWORKS]: {
                 title: 'Stacks',
-                freeform: 'Other stacks'
+                freeform: 'Other stacks',
             },
             [sections.TESTING]: {
                 title: 'Testing',
-                freeform: 'Other testing frameworks'
+                freeform: 'Other testing frameworks',
             },
             [sections.CSS]: {
                 title: 'CSS',
-                freeform: 'Other CSS solutions'
+                freeform: 'Other CSS solutions',
             },
             [sections.BUILD_TOOLS]: {
                 title: 'Build Tools',
-                freeform: 'Other build tools'
+                freeform: 'Other build tools',
             },
             [sections.MOBILE_DESKTOP]: {
                 title: 'Mobile',
-                freeform: 'Other mobile apps solutions'
-            }
+                freeform: 'Other mobile apps solutions',
+            },
         },
         experience: {
             [`I've used it before, and would use it again`]: experience.WOULD_USE,
             [`I've used it before, and would not use it again`]: experience.WOULD_NOT_USE,
             [`I've heard of it, and would like to learn it`]: experience.INTERESTED,
             [`I've heard of it, and am not interested`]: experience.NOT_INTERESTED,
-            [`I've never heard of it`]: experience.NEVER_HEARD
+            [`I've never heard of it`]: experience.NEVER_HEARD,
         },
         feature: {},
     },
@@ -68,43 +68,43 @@ export default [
         typeformId: 'S5iLk9',
         sections: {
             [sections.JAVASCRIPT_FLAVORS]: {
-                title: 'JavaScript Flavor'
+                title: 'JavaScript Flavor',
             },
             [sections.FRONTEND_FRAMEWORKS]: {
                 title: 'Front-End',
-                freeform: 'Other Front-End Frameworks'
+                freeform: 'Other Front-End Frameworks',
             },
             [sections.DATA_LAYER]: {
                 title: 'Data Layer',
-                freeform: 'Other Data Management Solutions'
+                freeform: 'Other Data Management Solutions',
             },
             [sections.BACKEND_FRAMEWORKS]: {
                 title: 'Back-End',
-                freeform: 'Other Back-End Tools'
+                freeform: 'Other Back-End Tools',
             },
             [sections.TESTING]: {
                 title: 'Testing',
-                freeform: 'Other testing frameworks'
+                freeform: 'Other testing frameworks',
             },
             [sections.CSS]: {
                 title: 'CSS',
-                freeform: 'Other CSS solutions'
+                freeform: 'Other CSS solutions',
             },
             [sections.BUILD_TOOLS]: {
                 title: 'Build Tools',
-                freeform: 'Other build tools'
+                freeform: 'Other build tools',
             },
             [sections.MOBILE_DESKTOP]: {
                 title: 'Mobile & Desktop',
-                freeform: 'Other mobile/desktop apps solutions'
-            }
+                freeform: 'Other mobile/desktop apps solutions',
+            },
         },
         experience: {
             [`I've USED it before, and WOULD use it again`]: experience.WOULD_USE,
             [`I've USED it before, and would NOT use it again`]: experience.WOULD_NOT_USE,
             [`I've HEARD of it, and WOULD like to learn it`]: experience.INTERESTED,
             [`I've HEARD of it, and am NOT interested`]: experience.NOT_INTERESTED,
-            [`I've never heard of it`]: experience.NEVER_HEARD
+            [`I've never heard of it`]: experience.NEVER_HEARD,
         },
         feature: {},
     },
@@ -116,35 +116,35 @@ export default [
         sections: {
             [sections.JAVASCRIPT_FLAVORS]: {
                 title: 'JavaScript Flavors',
-                freeform: 'Other JavaScript Flavors options'
+                freeform: 'Other JavaScript Flavors options',
             },
             [sections.FRONTEND_FRAMEWORKS]: {
                 title: 'Front-End',
-                freeform: 'Other Front-End options'
+                freeform: 'Other Front-End options',
             },
             [sections.DATA_LAYER]: {
                 title: 'Data Layer',
-                freeform: 'Other Data Layer options'
+                freeform: 'Other Data Layer options',
             },
             [sections.BACKEND_FRAMEWORKS]: {
                 title: 'Back-end',
-                freeform: 'Other Back-end options'
+                freeform: 'Other Back-end options',
             },
             [sections.TESTING]: {
                 title: 'Testing',
-                freeform: 'Other Testing options'
+                freeform: 'Other Testing options',
             },
             [sections.MOBILE_DESKTOP]: {
                 title: 'Mobile & Desktop',
-                freeform: 'Other Mobile & Desktop options'
-            }
+                freeform: 'Other Mobile & Desktop options',
+            },
         },
         experience: {
             [`👍 Used it > Would use again`]: experience.WOULD_USE,
             [`👎 Used it > Would avoid`]: experience.WOULD_NOT_USE,
             [`✅ Heard of it > Would like to learn`]: experience.INTERESTED,
             [`🚫 Heard of it > Not interested`]: experience.NOT_INTERESTED,
-            [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD
+            [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD,
         },
         feature: {},
     },
@@ -277,13 +277,18 @@ export default [
             resources_sitescourses: 'resources.sites_courses.choices',
             resources_othercourses: 'resources.sites_courses.others',
 
-            opinionquestions_buildingjavascriptappsisoverlycomplexrightnow: 'opinions.building_js_apps_overly_complex',
+            opinionquestions_buildingjavascriptappsisoverlycomplexrightnow:
+                'opinions.building_js_apps_overly_complex',
             opinionquestions_ienjoybuildingjavascriptapps: 'opinions.enjoy_building_js_apps',
-            opinionquestions_iwouldlikejavascripttobemymainprogramminglanguage: 'opinions.would_like_js_to_be_main_lang',
-            opinionquestions_javascriptismovingintherightdirection: 'opinions.js_moving_in_right_direction',
+            opinionquestions_iwouldlikejavascripttobemymainprogramminglanguage:
+                'opinions.would_like_js_to_be_main_lang',
+            opinionquestions_javascriptismovingintherightdirection:
+                'opinions.js_moving_in_right_direction',
             opinionquestions_javascriptisoverusedonline: 'opinions.js_over_used_online',
-            opinionquestions_thejavascriptecosystemischangingtoofast: 'opinions.js_ecosystem_changing_to_fast',
-            opinionquestions_whatdoyoufeeliscurrentlymissingfromjavascript: 'opinions.missing_from_js',
+            opinionquestions_thejavascriptecosystemischangingtoofast:
+                'opinions.js_ecosystem_changing_to_fast',
+            opinionquestions_whatdoyoufeeliscurrentlymissingfromjavascript:
+                'opinions.missing_from_js',
 
             aboutyou_youremail: 'user_info.email',
             aboutyou_backendproficiency: 'user_info.backend_proficiency',
@@ -296,19 +301,20 @@ export default [
             aboutyou_yourcountry: 'user_info.country',
             aboutyou_yourgender: 'user_info.gender',
             aboutyou_othergender: 'user_info.gender',
-            aboutyou_howdidyoufindoutaboutthissurvey: 'user_info.how_did_user_find_out_about_the_survey',
+            aboutyou_howdidyoufindoutaboutthissurvey:
+                'user_info.how_did_user_find_out_about_the_survey',
         },
         experience: {
             would_use_again: experience.WOULD_USE,
             would_not_use_again: experience.WOULD_NOT_USE,
             interested: experience.INTERESTED,
             not_interested: experience.NOT_INTERESTED,
-            neverheard: experience.NEVER_HEARD
+            neverheard: experience.NEVER_HEARD,
         },
         feature: {},
         gender: {
-            'Male': gender.MALE,
-            'Female': gender.FEMALE,
+            Male: gender.MALE,
+            Female: gender.FEMALE,
             'Non-binary/ third gender': gender.NONBINARY,
             'Prefer not to say': gender.NOTSAY,
         },
@@ -347,34 +353,34 @@ export default [
             'Level 5: able to handle complex multi-server or microservices architectures': 4,
         },
         cssProficiency: {
-           'Level 1: virtually no knowledge of CSS': 0,
-           'Level 2: using CSS frameworks and tweaking existing styles': 1,
-           'Level 3: knowing specificity rules, being able to create layouts': 2,
-           'Level 4: mastering animations, interactions, transitions, etc.': 3,
-           'Level 5: being able to style an entire front-end from scratch following a consistent methodology': 4,
+            'Level 1: virtually no knowledge of CSS': 0,
+            'Level 2: using CSS frameworks and tweaking existing styles': 1,
+            'Level 3: knowing specificity rules, being able to create layouts': 2,
+            'Level 4: mastering animations, interactions, transitions, etc.': 3,
+            'Level 5: being able to style an entire front-end from scratch following a consistent methodology': 4,
         },
         features: {
-            'Destructuring': 'destructuring',
+            Destructuring: 'destructuring',
             'Spread operator': 'spread_operator',
             'Arrow Functions': 'arrow_functions',
-            'Proxies': 'proxies',
+            Proxies: 'proxies',
             'Async/Await': 'async_await',
-            'Promises': 'promises',
-            'Decorators': 'decorators',
-            'Maps': 'maps',
+            Promises: 'promises',
+            Decorators: 'decorators',
+            Maps: 'maps',
             'Typed Arrays': 'typed_arrays',
             'Array.prototype.flat': 'array_prototype_flat',
             'Service Workers': 'service_workers',
-            'LocalStorage': 'local_storage',
-            'i18n': 'i18n',
+            LocalStorage: 'local_storage',
+            i18n: 'i18n',
             'Web Components': 'web_components',
             'Web Audio API': 'web_audio',
-            'WebGL': 'webgl',
+            WebGL: 'webgl',
             'Web Animations API': 'web_animations',
-            'WebRTC': 'webrtc',
+            WebRTC: 'webrtc',
             'Web Speech API': 'web_speech',
-            'WebVR': 'webvr',
-            'Websocket': 'websocket',
+            WebVR: 'webvr',
+            Websocket: 'websocket',
             'Fetch API': 'fetch',
             'Progressive Web Apps (PWA)': 'pwa',
             'WebAssembly (WASM)': 'wasm',
@@ -385,90 +391,90 @@ export default [
             'Reactive Programming': 'reactive',
         },
         utilities: {
-            'Immer': 'immer',
-            'Lodash': 'lodash',
-            'Underscore': 'underscore',
-            'Moment': 'moment',
+            Immer: 'immer',
+            Lodash: 'lodash',
+            Underscore: 'underscore',
+            Moment: 'moment',
             'Date Fns': 'date-fns',
-            'Ramda': 'ramda',
-            'jQuery': 'jquery',
-            'RxJS': 'rxjs'
+            Ramda: 'ramda',
+            jQuery: 'jquery',
+            RxJS: 'rxjs',
         },
         text_editors: {
-            'VS Code':'vs_code',
-            'Sublime Text':'sublime_text',
-            'Atom':'atom',
-            'Vim':'vim',
-            'Emacs':'emacs',
-            'Webstorm':'webstorm',
+            'VS Code': 'vs_code',
+            'Sublime Text': 'sublime_text',
+            Atom: 'atom',
+            Vim: 'vim',
+            Emacs: 'emacs',
+            Webstorm: 'webstorm',
         },
         browsers: {
-            'Edge':'edge',
-            'Chrome':'chrome',
-            'Safari':'safari',
-            'Firefox':'firefox',
+            Edge: 'edge',
+            Chrome: 'chrome',
+            Safari: 'safari',
+            Firefox: 'firefox',
         },
         build_tools: {
-            'Webpack':'webpack',
-            'Parcel':'parcel',
-            'Gulp':'gulp',
-            'RollUp':'rollup',
-            'FuseBox':'fusebox',
-            'Browserify':'browserify',
+            Webpack: 'webpack',
+            Parcel: 'parcel',
+            Gulp: 'gulp',
+            RollUp: 'rollup',
+            FuseBox: 'fusebox',
+            Browserify: 'browserify',
         },
         other_languages: {
-            'PHP':'php',
-            'Ruby':'ruby',
-            'Python':'python',
-            'Go':'go',
-            'Rust':'rust',
-            'Java':'java',
-            'C/C++':'ccplusplus',
-            'Objective-C':'objectivec',
-            'Scala':'scala',
-            'Swift':'swift',
-            'C#':'csharp',
-            '.NET':'dotnet',
-            'Haskell':'haskell',
-            'OCaml':'ocaml',
-            'Dart':'dart',
+            PHP: 'php',
+            Ruby: 'ruby',
+            Python: 'python',
+            Go: 'go',
+            Rust: 'rust',
+            Java: 'java',
+            'C/C++': 'ccplusplus',
+            'Objective-C': 'objectivec',
+            Scala: 'scala',
+            Swift: 'swift',
+            'C#': 'csharp',
+            '.NET': 'dotnet',
+            Haskell: 'haskell',
+            OCaml: 'ocaml',
+            Dart: 'dart',
         },
         magazines: {
-            'CSS Tricks':'css_tricks',
-            'Smashing Magazine':'smashing_magazine',
-            'CoDrops':'codrops',
-            'SitePoint':'sitepoint',
-            'David Walsh':'david_walsh',
-            'DailyJS':'dailyjs',
-            'Echo JS':'echojs',
-            'Front-End Front':'front_end_front',
-            'JavaScript Weekly':'js_weekly',
-            'Dev.to':'dev_to',
-            'Best of JS':'best_of_js',
+            'CSS Tricks': 'css_tricks',
+            'Smashing Magazine': 'smashing_magazine',
+            CoDrops: 'codrops',
+            SitePoint: 'sitepoint',
+            'David Walsh': 'david_walsh',
+            DailyJS: 'dailyjs',
+            'Echo JS': 'echojs',
+            'Front-End Front': 'front_end_front',
+            'JavaScript Weekly': 'js_weekly',
+            'Dev.to': 'dev_to',
+            'Best of JS': 'best_of_js',
         },
         sites: {
-            'Stack Overflow':'stack_overflow',
-            'MDN':'mdn',
-            'W3Schools':'w3schools',
-            'FreeCodeCamp':'fcc',
-            'Codecademy':'codecademy',
-            'LevelUp Tutorials':'levelup',
-            'Wes Bos Courses (CSSGrid.io, Flexbox.io, etc.)':'wesbos',
-            'Pluralsight':'pluralsight',
-            'DesignCode':'designcode',
+            'Stack Overflow': 'stack_overflow',
+            MDN: 'mdn',
+            W3Schools: 'w3schools',
+            FreeCodeCamp: 'fcc',
+            Codecademy: 'codecademy',
+            'LevelUp Tutorials': 'levelup',
+            'Wes Bos Courses (CSSGrid.io, Flexbox.io, etc.)': 'wesbos',
+            Pluralsight: 'pluralsight',
+            DesignCode: 'designcode',
         },
         podcasts: {
-            'Shop Talk Show':'shop_talk_show',
-            'The Changelog':'changelog',
-            'Syntax':'syntax',
-            'JS Party':'js_party',
-            'JavaScript Jabber':'js_jabber',
-            'Full Stack Radio':'full_stack_radio',
-            'Front End Happy Hour':'front_end_happy_hour',
-            'JAMstack Radio':'jamstack_radio',
-            'The Web Platform Podcast':'web_platform_podcast',
-            'Modern Web':'modern_web',
-            'CodePen Radio':'codepen_radio',
+            'Shop Talk Show': 'shop_talk_show',
+            'The Changelog': 'changelog',
+            Syntax: 'syntax',
+            'JS Party': 'js_party',
+            'JavaScript Jabber': 'js_jabber',
+            'Full Stack Radio': 'full_stack_radio',
+            'Front End Happy Hour': 'front_end_happy_hour',
+            'JAMstack Radio': 'jamstack_radio',
+            'The Web Platform Podcast': 'web_platform_podcast',
+            'Modern Web': 'modern_web',
+            'CodePen Radio': 'codepen_radio',
         },
     },
     {
@@ -529,7 +535,7 @@ export default [
             [`👎 Used it > Would avoid`]: experience.WOULD_NOT_USE,
             [`✅ Heard of it > Would like to learn`]: experience.INTERESTED,
             [`🚫 Heard of it > Not interested`]: experience.NOT_INTERESTED,
-            [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD
+            [`🤷 Never heard of it/Not sure what it is`]: experience.NEVER_HEARD,
         },
         feature: {
             [`🤷 Never heard of it/Not sure what it is`]: feature.NEVER_HEARD,

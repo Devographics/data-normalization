@@ -134,8 +134,8 @@ experience:
     '🤷 Never heard of it/Not sure what it is': never_heard
 feature:
     '🤷 Never heard of it/Not sure what it is': never_heard
-    '✅ Know what it is, but haven''t used it': heard
-    '👍 I''ve used it': used
+    "✅ Know what it is, but haven't used it": heard
+    "👍 I've used it": used
 tools:
     - sass
     - less

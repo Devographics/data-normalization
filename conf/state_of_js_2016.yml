@@ -87,11 +87,11 @@ sections:
             - phonegap
             - nativescript
 experience:
-    'I''ve used it before, and would use it again': would_use
-    'I''ve used it before, and would not use it again': would_not_use
-    'I''ve heard of it, and would like to learn it': interested
-    'I''ve heard of it, and am not interested': not_interested
-    'I''ve never heard of it': never_heard
+    "I've used it before, and would use it again": would_use
+    "I've used it before, and would not use it again": would_not_use
+    "I've heard of it, and would like to learn it": interested
+    "I've heard of it, and am not interested": not_interested
+    "I've never heard of it": never_heard
 tools:
     - vanillajs
     - es6

@@ -6,12 +6,9 @@ import {
     fetchTypeformResponses,
     normalizeTypeformResponses,
 } from './lib/typeform/index.mjs'
-import {
-    recreateIndex,
-    indexSurveyResponses,
-} from './lib/elastic/index.mjs'
+import { recreateIndex, indexSurveyResponses } from './lib/elastic/index.mjs'
 import { anonymizeResponses } from './lib/anonymize.mjs'
-import  {
+import {
     cleanupMongoResponses,
     saveResponsesToMongo,
     fetchMongoResponses,
@@ -20,7 +17,7 @@ import  {
 import surveys from './conf/surveys.mjs'
 
 const getSurveyConfig = (survey, year) => {
-    const surveyConfig = surveys.find(s => {
+    const surveyConfig = surveys.find((s) => {
         return s.survey === survey && s.year === Number(year)
     })
     if (!surveyConfig) {
@@ -42,7 +39,9 @@ program
         if (surveyConfig.source === 'typeform') {
             await extractTypeformConfig(surveyConfig)
         } else {
-            console.log(`survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`)
+            console.log(
+                `survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`
+            )
             process.exit(1)
         }
     })
@@ -55,7 +54,9 @@ program
         if (surveyConfig.source === 'typeform') {
             await fetchTypeformResponses(surveyConfig)
         } else {
-            console.log(`survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`)
+            console.log(
+                `survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`
+            )
             process.exit(1)
         }
     })
@@ -68,7 +69,9 @@ program
         if (surveyConfig.source === 'typeform') {
             await normalizeTypeformResponses(surveyConfig)
         } else {
-            console.log(`survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`)
+            console.log(
+                `survey ${surveyConfig.survey} ${surveyConfig.year} source is not typeform (found: ${surveyConfig.source})`
+            )
             process.exit(1)
         }
     })
@@ -78,7 +81,9 @@ program
 //
 program
     .command('es-setup')
-    .description('setup elasticsearch, recreate indices, this operation will remove existing indices')
+    .description(
+        'setup elasticsearch, recreate indices, this operation will remove existing indices'
+    )
     .action(async () => {
         await recreateIndex()
     })
@@ -110,7 +115,9 @@ program
         if (surveyConfig.source === 'mongo') {
             await fetchMongoResponses(surveyConfig)
         } else {
-            console.log(`survey ${surveyConfig.survey} ${surveyConfig.year} source is not mongo (found: ${surveyConfig.source})`)
+            console.log(
+                `survey ${surveyConfig.survey} ${surveyConfig.year} source is not mongo (found: ${surveyConfig.source})`
+            )
             process.exit(1)
         }
     })
@@ -137,7 +144,9 @@ program
         if (surveyConfig.source === 'mongo') {
             await normalizeMongoResponses(surveyConfig)
         } else {
-            console.log(`survey ${surveyConfig.survey} ${surveyConfig.year} source is not mongo (found: ${surveyConfig.source})`)
+            console.log(
+                `survey ${surveyConfig.survey} ${surveyConfig.year} source is not mongo (found: ${surveyConfig.source})`
+            )
             process.exit(1)
         }
     })
@@ -157,10 +166,10 @@ program
     .command('transform-load')
     .description('transform and load data for all js surveys')
     .action(async () => {
-        const jsSurveys = surveys.filter(s => s.survey === 'js')
+        const jsSurveys = surveys.filter((s) => s.survey === 'js')
 
-        const tfSurveys = jsSurveys.filter(s => s.source === 'typeform')
-        const mongoSurveys = jsSurveys.filter(s => s.source === 'mongo')
+        const tfSurveys = jsSurveys.filter((s) => s.source === 'typeform')
+        const mongoSurveys = jsSurveys.filter((s) => s.source === 'mongo')
 
         console.log('—————————————————————————————————————————————————')
         console.log(' extract typeform configs')

@@ -92,11 +92,11 @@ sections:
             - nativescript
             - electron
 experience:
-    'I''ve USED it before, and WOULD use it again': would_use
-    'I''ve USED it before, and would NOT use it again': would_not_use
-    'I''ve HEARD of it, and WOULD like to learn it': interested
-    'I''ve HEARD of it, and am NOT interested': not_interested
-    'I''ve never heard of it': never_heard
+    "I've USED it before, and WOULD use it again": would_use
+    "I've USED it before, and would NOT use it again": would_not_use
+    "I've HEARD of it, and WOULD like to learn it": interested
+    "I've HEARD of it, and am NOT interested": not_interested
+    "I've never heard of it": never_heard
 tools:
     - vanillajs
     - es6

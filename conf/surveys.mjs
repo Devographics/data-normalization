@@ -529,6 +529,13 @@ export default [
                 title: 'CSS-in-JS',
                 freeform: 'Other CSS-in-JS options',
             },
+            // Generic
+            [sections.ENVIRONMENTS]: {
+                title: 'Environments',
+            },
+            [sections.RESOURCES]: {
+                title: 'Resources',
+            },
         },
         experience: {
             [`👍 Used it > Would use again`]: experience.WOULD_USE,

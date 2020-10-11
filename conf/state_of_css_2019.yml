@@ -5,17 +5,14 @@ typeformId: TxDuh6
 sections:
     layout:
         title: Layout
-        tools: []
         features:
             - grid
             - flexbox
             - multi_column
             - writing_modes
             - exclusions
-        features_used_by_category: []
     shapes_and_graphics:
         title: 'Shapes & Graphics'
-        tools: []
         features:
             - shapes
             - object_fit
@@ -23,49 +20,38 @@ sections:
             - masks
             - blend_modes
             - filter_effects
-        features_used_by_category: []
     interactions:
         title: Interactions
-        tools: []
         features:
             - scroll_snap
             - overscroll_behavior
             - overflow_anchor
-        features_used_by_category: []
     typography:
         title: Typography
-        tools: []
         features:
             - web_fonts
             - variables_fonts
             - line_breaking
             - font_variant
             - initial_letter
-        features_used_by_category: []
     animations_and_transforms:
         title: 'Animations & Transforms'
-        tools: []
         features:
             - transitions
             - transforms
             - animations
-        features_used_by_category: []
     other_features:
         title: 'Other Features'
-        tools: []
         features:
             - variables
             - feature_support_queries
             - containment
             - will_change
             - calc
-        features_used_by_category: []
     units_and_selectors:
         type: used_features_by_category
         title: 'Units & Selectors'
-        tools: []
-        features: []
-        features_used_by_category:
+        features_others:
             - units
             - pseudo_elements
             - combinators
@@ -82,8 +68,8 @@ sections:
             - less
             - postcss
             - stylus
-        features: []
-        features_used_by_category: []
+        tools_others:
+            - pre_post_processors
     css_frameworks:
         title: 'CSS Frameworks'
         freeform: 'Other CSS Frameworks options'
@@ -99,8 +85,8 @@ sections:
             - primer
             - tailwind
             - purecss
-        features: []
-        features_used_by_category: []
+        tools_others:
+            - css_frameworks
     css_methodologies:
         title: Methodologies
         freeform: 'Other Methodologies options'
@@ -110,8 +96,8 @@ sections:
             - css
             - css
             - css
-        features: []
-        features_used_by_category: []
+        tools_others:
+            - css_methodologies
     css_in_js:
         title: CSS-in-JS
         freeform: 'Other CSS-in-JS options'
@@ -124,8 +110,16 @@ sections:
             - radium
             - emotion
             - cssmodules
-        features: []
-        features_used_by_category: []
+        tools_others:
+            - css_in_js
+    environments:
+        title: Environments
+    resources:
+        title: Resources
+        resources:
+            - blogs_news_magazines
+            - sites_courses
+            - podcasts
 experience:
     '👍 Used it > Would use again': would_use
     '👎 Used it > Would avoid': would_not_use
@@ -165,6 +159,13 @@ tools:
     - radium
     - emotion
     - cssmodules
+tools_others:
+    - text_editors
+    - browsers
+    - pre_post_processors
+    - css_frameworks
+    - css_methodologies
+    - css_in_js
 features:
     - grid
     - flexbox
@@ -193,7 +194,7 @@ features:
     - containment
     - will_change
     - calc
-features_used_by_category:
+features_others:
     - units
     - pseudo_elements
     - combinators
@@ -202,9 +203,6 @@ features_used_by_category:
     - links_urls
     - interaction
     - form_controls
-other_tools:
-    - text_editors
-    - browsers
 user_info:
     - years_of_experience
     - company_size
@@ -680,12 +678,18 @@ fields:
     hHpdTsdpREoT:
         slug: resources_blogs_magazines
         typeform_type: multiple_choice
+        type: resource
+        resource: blogs_news_magazines
     wzi4gtevGDtI:
         slug: resources_sites_courses
         typeform_type: multiple_choice
+        type: resource
+        resource: sites_courses
     YwJYWWN24EC7:
         slug: resources_podcasts
         typeform_type: multiple_choice
+        type: resource
+        resource: podcasts
     PUv05Lpm7psX:
         slug: opinion_questions
         typeform_type: group

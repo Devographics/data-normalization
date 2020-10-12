@@ -66,7 +66,7 @@ sections:
         tools:
             - sass
             - less
-            - postcss
+            - post_css
             - stylus
         tools_others:
             - pre_post_processors
@@ -75,16 +75,16 @@ sections:
         freeform: 'Other CSS Frameworks options'
         tools:
             - bootstrap
-            - materialize
+            - materialize_css
             - ant_design
-            - semanticui
+            - semantic_ui
             - bulma
             - foundation
-            - uikit
+            - ui_kit
             - tachyons
             - primer
-            - tailwind
-            - purecss
+            - tailwind_css
+            - pure_css
         tools_others:
             - css_frameworks
     css_methodologies:
@@ -92,10 +92,10 @@ sections:
         freeform: 'Other Methodologies options'
         tools:
             - bem
-            - atomic_design
-            - css
-            - css
-            - css
+            - atomic_css
+            - oocss
+            - smacss
+            - it_css
         tools_others:
             - css_methodologies
     css_in_js:
@@ -109,7 +109,7 @@ sections:
             - styled_jsx
             - radium
             - emotion
-            - cssmodules
+            - css_modules
         tools_others:
             - css_in_js
     environments:
@@ -133,24 +133,24 @@ feature:
 tools:
     - sass
     - less
-    - postcss
+    - post_css
     - stylus
     - bootstrap
-    - materialize
+    - materialize_css
     - ant_design
-    - semanticui
+    - semantic_ui
     - bulma
     - foundation
-    - uikit
+    - ui_kit
     - tachyons
     - primer
-    - tailwind
-    - purecss
+    - tailwind_css
+    - pure_css
     - bem
-    - atomic_design
-    - css
-    - css
-    - css
+    - atomic_css
+    - oocss
+    - smacss
+    - it_css
     - styled_components
     - glamor
     - aphrodite
@@ -158,7 +158,7 @@ tools:
     - styled_jsx
     - radium
     - emotion
-    - cssmodules
+    - css_modules
 tools_others:
     - text_editors
     - browsers
@@ -463,7 +463,7 @@ fields:
         slug: pre_post_processors_post_css
         typeform_type: multiple_choice
         type: tool
-        tool: postcss
+        tool: post_css
         section: pre_post_processors
     zqBKdGQdnoMz:
         slug: pre_post_processors_stylus
@@ -489,7 +489,7 @@ fields:
         slug: css_frameworks_materialize_css
         typeform_type: multiple_choice
         type: tool
-        tool: materialize
+        tool: materialize_css
         section: css_frameworks
     zYOClgLorLGP:
         slug: css_frameworks_ant_design
@@ -501,7 +501,7 @@ fields:
         slug: css_frameworks_semantic_ui
         typeform_type: multiple_choice
         type: tool
-        tool: semanticui
+        tool: semantic_ui
         section: css_frameworks
     IZ5sGPy4xWsx:
         slug: css_frameworks_bulma
@@ -519,7 +519,7 @@ fields:
         slug: css_frameworks_ui_kit
         typeform_type: multiple_choice
         type: tool
-        tool: uikit
+        tool: ui_kit
         section: css_frameworks
     YZYclC9RfC4l:
         slug: css_frameworks_tachyons
@@ -537,13 +537,13 @@ fields:
         slug: css_frameworks_tailwind
         typeform_type: multiple_choice
         type: tool
-        tool: tailwind
+        tool: tailwind_css
         section: css_frameworks
     GNEBdGRsg99i:
         slug: css_frameworks_pure_css
         typeform_type: multiple_choice
         type: tool
-        tool: purecss
+        tool: pure_css
         section: css_frameworks
     c9Zmc6vYxMic:
         slug: css_frameworks_other_css_frameworks_options
@@ -563,25 +563,25 @@ fields:
         slug: methodologies_atomic_css
         typeform_type: multiple_choice
         type: tool
-        tool: atomic_design
+        tool: atomic_css
         section: css_methodologies
     zepIywuH0DaP:
         slug: methodologies_oocss
         typeform_type: multiple_choice
         type: tool
-        tool: css
+        tool: oocss
         section: css_methodologies
     jsNmTXCsLOTW:
         slug: methodologies_smacss
         typeform_type: multiple_choice
         type: tool
-        tool: css
+        tool: smacss
         section: css_methodologies
     ZcAKfB1HO2Yx:
         slug: methodologies_it_css
         typeform_type: multiple_choice
         type: tool
-        tool: css
+        tool: it_css
         section: css_methodologies
     bPuy3vvhEDd9:
         slug: methodologies_other_methodologies_options
@@ -637,7 +637,7 @@ fields:
         slug: css_in_js_css_modules
         typeform_type: multiple_choice
         type: tool
-        tool: cssmodules
+        tool: css_modules
         section: css_in_js
     Qii3cTAXuKe1:
         slug: css_in_js_other_css_in_js_options

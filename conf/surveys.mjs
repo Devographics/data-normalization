@@ -2,7 +2,7 @@ import {
     sections,
     experience,
     feature,
-    SECTION_TYPE_USED_FEATURES_BY_CATEGORY,
+    SECTION_TYPE_OTHER_FEATURES,
     gender,
     salary,
     workExperience,
@@ -509,7 +509,7 @@ export default [
                 title: 'Other Features',
             },
             [sections.UNITS_AND_SELECTORS]: {
-                type: SECTION_TYPE_USED_FEATURES_BY_CATEGORY,
+                type: SECTION_TYPE_OTHER_FEATURES,
                 title: 'Units & Selectors',
             },
             // Technologies

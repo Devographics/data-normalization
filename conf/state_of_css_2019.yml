@@ -30,7 +30,7 @@ sections:
         title: Typography
         features:
             - web_fonts
-            - variables_fonts
+            - variable_fonts
             - line_breaking
             - font_variant
             - initial_letter
@@ -49,7 +49,7 @@ sections:
             - will_change
             - calc
     units_and_selectors:
-        type: used_features_by_category
+        type: other_features
         title: 'Units & Selectors'
         features_others:
             - units
@@ -182,7 +182,7 @@ features:
     - overscroll_behavior
     - overflow_anchor
     - web_fonts
-    - variables_fonts
+    - variable_fonts
     - line_breaking
     - font_variant
     - initial_letter
@@ -319,7 +319,7 @@ fields:
         slug: typography_variable_fonts
         typeform_type: multiple_choice
         type: feature_experience
-        feature: variables_fonts
+        feature: variable_fonts
         section: typography
     tg8d6rzXEYbN:
         slug: typography_line_breaking_properties_overflow_wrap_word_break_line_break_hyphens
@@ -399,49 +399,49 @@ fields:
     hmLZZKkCBfl0:
         slug: units_selectors_units
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: units
         section: units_and_selectors
     qMtj8Z4wxMJy:
         slug: units_selectors_pseudo_elements
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: pseudo_elements
         section: units_and_selectors
     csKVUYeHlCbX:
         slug: units_selectors_combinators
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: combinators
         section: units_and_selectors
     yUgFhnpaaTcr:
         slug: units_selectors_tree_document_structure
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: tree_document_structure
         section: units_and_selectors
     RslcdNaSwgm1:
         slug: units_selectors_attributes
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: attributes
         section: units_and_selectors
     WYR1muPZGs7o:
         slug: units_selectors_links_ur_ls
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: links_urls
         section: units_and_selectors
     TqTtS8N0xfrF:
         slug: units_selectors_interaction
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: interaction
         section: units_and_selectors
     s6Vv3sFSxsHZ:
         slug: units_selectors_form_controls
         typeform_type: multiple_choice
-        type: features_used_by_category
+        type: other_feature
         feature: form_controls
         section: units_and_selectors
     XkoLJdi6DdFo:

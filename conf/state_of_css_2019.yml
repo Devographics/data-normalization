@@ -114,6 +114,11 @@ sections:
             - css_in_js
     environments:
         title: Environments
+        environments:
+            - browsers
+            - form_factors
+            - css_for_print
+            - css_for_email_clients
     resources:
         title: Resources
         resources:
@@ -663,15 +668,41 @@ fields:
     bzmkerUdVxhP:
         slug: environments_browsers
         typeform_type: multiple_choice
+        type: environment_choices
+        environment: browsers
     jMxKxuf2PBvc:
         slug: environments_form_factors
         typeform_type: multiple_choice
+        type: environment_choices
+        environment: form_factors
     kI1o7Eg1Y1Sg:
         slug: environments_css_for_print
         typeform_type: multiple_choice
+        type: environment_rating
+        environment: css_for_print
+        rating_mapping:
+            - label: 'I (almost) never write print styles'
+              rating: 0
+            - label: 'I occasionally write print styles'
+              rating: 1
+            - label: 'I write print styles as part of most projects'
+              rating: 2
+            - label: 'I focus mainly on CSS for print'
+              rating: 3
     o9vEawz2PWAY:
         slug: environments_css_for_email_clients
         typeform_type: multiple_choice
+        type: environment_rating
+        environment: css_for_email_clients
+        rating_mapping:
+            - label: 'I (almost) never write CSS for email clients'
+              rating: 0
+            - label: 'I occasionally write CSS for email clients'
+              rating: 1
+            - label: 'I write CSS for email clients as part of most projects'
+              rating: 2
+            - label: 'I focus mainly on CSS for email clients'
+              rating: 3
     z79X5dNP6vv7:
         slug: resources
         typeform_type: group

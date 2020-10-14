@@ -118,7 +118,7 @@ sections:
             - browsers
             - form_factors
             - css_for_print
-            - css_for_email_clients
+            - css_for_email
     resources:
         title: Resources
         resources:
@@ -693,7 +693,7 @@ fields:
         slug: environments_css_for_email_clients
         typeform_type: multiple_choice
         type: environment_rating
-        environment: css_for_email_clients
+        environment: css_for_email
         rating_mapping:
             - label: 'I (almost) never write CSS for email clients'
               rating: 0

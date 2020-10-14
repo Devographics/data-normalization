@@ -772,9 +772,33 @@ fields:
     n5IpMFkCA2Jo:
         slug: about_you_java_script_proficiency
         typeform_type: multiple_choice
+        type: proficiency
+        proficiency: javascript_proficiency
+        proficiency_mapping:
+            - label: 'I am not able to write any JavaScript'
+              rating: 0
+            - label: 'I can write short, simple JavaScript or jQuery statements'
+              rating: 1
+            - label: 'I can work on existing front-end codebases using modern frameworks (React, Vue, etc.)'
+              rating: 2
+            - label: 'I can architecture entire front-end codebases from scratch'
+              rating: 3
+            - label: 'I can handle advanced front-end patterns (state management, data loading, etc.)'
+              rating: 4
     q4ilL72dqFXm:
         slug: about_you_back_end_proficiency
         typeform_type: multiple_choice
+        type: proficiency
+        proficiency: backend_proficiency
+        proficiency_mapping:
+            - label: 'I am not able to handle any back-end work'
+              rating: 0
+            - label: 'I can set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)'
+              rating: 1
+            - label: 'I can develop apps using pre-existing frameworks (Rails, Laravel, etc.)'
+              rating: 2
+            - label: 'I can set up an entire back-end from scratch (Go, Node, etc.)'
+              rating: 3
     o7LTGkALXyRo:
         slug: about_you_company_size
         typeform_type: multiple_choice

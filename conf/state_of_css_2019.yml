@@ -728,37 +728,37 @@ fields:
     zJogsw6WGZ56:
         slug: opinion_questions_css_is_easy_to_learn
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: css_easy_to_learn
     ZGntnAjmniQL:
         slug: opinion_questions_css_is_evolving_too_slowly
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: css_evolving_slowly
     VNl3rRvdN3ZF:
         slug: opinion_questions_utility_non_semantic_classes_center_large_text_etc_should_be_avoided
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: utility_classes_to_be_avoided
     bo71ervW9Iac:
         slug: opinion_questions_selector_nesting_foo_bar_ul_li_should_be_avoided
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: selector_nesting_to_be_avoided
     TGFLaMI9Mrs1:
         slug: opinion_questions_css_is_a_programming_language
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: css_is_programming_language
     CYLE9SAWrrSn:
         slug: opinion_questions_i_enjoy_writing_css
         typeform_type: opinion_scale
-        type: opinion_questions
+        type: opinion
         subject: enjoy_writing_css
     PZz5MQhX1PLg:
         slug: opinion_questions_what_do_you_feel_is_currently_missing_from_css
         typeform_type: long_text
-        type: opinion_questions
+        type: other_opinion
         subject: currently_missing_from_css
     diC8JCSGnupV:
         slug: about_you

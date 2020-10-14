@@ -216,7 +216,8 @@ user_info:
     - source
     - gender
     - country
-    - null
+    - city
+    - job_title
 fields:
     c89BAjg9PKjD:
         slug: layout
@@ -769,6 +770,7 @@ fields:
     VJ0Xkty6TvJ2:
         slug: about_you_job_title
         typeform_type: multiple_choice
+        type: job_title
     n5IpMFkCA2Jo:
         slug: about_you_java_script_proficiency
         typeform_type: multiple_choice
@@ -826,7 +828,7 @@ fields:
     oKisgxvahm4P:
         slug: about_you_your_city
         typeform_type: short_text
-        type: null
+        type: city
     RGD9EB35uLzX:
         slug: about_you_other_comments
         typeform_type: long_text

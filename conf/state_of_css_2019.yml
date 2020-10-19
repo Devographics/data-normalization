@@ -30,7 +30,7 @@ sections:
         title: Typography
         features:
             - web_fonts
-            - variable_fonts
+            - variables_fonts
             - line_breaking
             - font_variant
             - initial_letter
@@ -187,7 +187,7 @@ features:
     - overscroll_behavior
     - overflow_anchor
     - web_fonts
-    - variable_fonts
+    - variables_fonts
     - line_breaking
     - font_variant
     - initial_letter
@@ -325,7 +325,7 @@ fields:
         slug: typography_variable_fonts
         typeform_type: multiple_choice
         type: feature_experience
-        feature: variable_fonts
+        feature: variables_fonts
         section: typography
     tg8d6rzXEYbN:
         slug: typography_line_breaking_properties_overflow_wrap_word_break_line_break_hyphens
